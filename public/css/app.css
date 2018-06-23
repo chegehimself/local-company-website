@@ -14,14 +14,77 @@ html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  background: #FFFFFF !important;
 }
+
+/*****
+color
+******/
 
 body {
   margin: 0;
+  background: white !important;
 }
 
+
+a {
+  color:white;
+}
+
+.text-social {
+  color: #AAAAAA;
+}
+
+/* .navbar {
+  background:#F1F2F3 !important;
+} */
+
+/* #navbar {
+  background:#F1F2F3 !important;
+  
+} */
+.top-nav {
+  background:#F1F2F3 !important;
+}
+
+.navbar-default .navbar-collapse {
+  border-color:white;
+}
+
+.navbar-default {
+  border-color: white !important;
+}
+
+.main-nav {
+  background: white;
+}
+
+push {
+  color:#000;
+}
+/**********
+ typography
+ **********/
+.text-social {
+  font-family:montserrat;
+}
+
+
+
+/******
+ General
+*******/
 .spacer {
-  height: 70px !important;
+  height: 70px;
+}
+
+.main-nav {
+  margin-top: -20px;
+}
+
+.push {
+  padding-top:27px;
+  font-size: 1.2em;
 }
 
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
@@ -4911,7 +4974,7 @@ tbody.collapse.in {
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
-  color: #555555;
+  color: #FFFFFF;
   background-color: #f5f8fa;
   border: 1px solid #ddd;
   border-bottom-color: transparent;

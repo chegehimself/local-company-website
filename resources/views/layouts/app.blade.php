@@ -11,8 +11,7 @@
     </head>
     <body>
         @include('inc.navbar')
-        <div class="spacer">
-        </div>
+        @yield('main-nav')
         <div class="container">
             @yield('content')
         </div>
