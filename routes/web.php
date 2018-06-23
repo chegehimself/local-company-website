@@ -17,3 +17,4 @@ Route::get('/', 'PagesController@index');
 
 // about page
 Route::get('/about', 'PagesController@about');
+
