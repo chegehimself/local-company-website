@@ -17,7 +17,7 @@
         <h1 class="text-center">WEB DESIGN SERVICES</h1>
 </div>
 <div id="all-design" class="text-center"> 
-<div class="row">
+<div class="row container">
     <div id="design" class="push text-center col-md-7">
             <h2><strong>We've been around for a LONG time!</strong></h2>
             Our team has been serving Malaysian 
