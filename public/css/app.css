@@ -237,6 +237,10 @@ li,a {
 #all-design {
   background: #F1F2F3;
 }
+
+#footer {
+  padding-bottom: 20px;
+}
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 
 @media print {
