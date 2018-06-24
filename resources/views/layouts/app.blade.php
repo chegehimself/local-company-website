@@ -31,16 +31,8 @@
         <div id="drupal">
             @yield('contact')
         </div>
-        <div id="footer" class="container">
-            <div class="row">
-                <div class="col-md-6 text-left">
-                    <span>Copyright &copy; 2018</span>
-                </div>
-                <div class="col-md-6 text-right ts">
-                    <span class="text">Terms and coditions</span>
-                </div>
-            </div>
-        </div>
+             <p id="footer" class="text-center">Copyright &copy; 2018 Terms and coditions</p>
+
     </body>
     <script src="{{asset('js/app.js')}}" type="text/javascript"></script>
     <script src="{{asset('js/main.js')}}" type="text/javascript"></script>

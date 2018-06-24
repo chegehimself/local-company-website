@@ -248,7 +248,9 @@ li,a {
 }
 
 #footer {
-  padding-bottom: 20px;
+  padding-bottom: 10px;
+  bottom: 0;
+  position: middle;
 }
 
 .ts {

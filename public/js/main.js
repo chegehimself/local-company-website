@@ -13,14 +13,14 @@ $(window).on('scroll', function() {
 });
 
 
-let sidebarSize = document.getElementById("fix").offsetWidth;
+// let sidebarSize = document.getElementById("fix").offsetWidth;
 let mainElement = document.getElementById("mobile");
 
 // if mobile screen size
 if (isMobile(window.innerWidth)) {
     // remove nav
-    let sidebar = document.getElementById('fix');
-    sidebar.parentElement.removeChild(sidebar);
+    let sizeNow = document.getElementById('fix');
+    sizeNow.parentElement.removeChild(sizeNow);
 
     // add mobile navbar
     const bottombar = document.createElement('div');
@@ -31,6 +31,8 @@ if (isMobile(window.innerWidth)) {
         `<a class='item' href='contact'>` + "contact" + "</a>" + "</nav>";
 
     mainElement.insertAdjacentHTML('beforebegin', mysnippet);
+
+    // modify footer
 }
 
 // At page load complete load
@@ -59,7 +61,7 @@ function isMobile(windowInnerWidth) {
     return 0;
 }
 
-// formula so main matches window size minus sidebar
+// formula so main matches window size minus sizeNow
 function resizeMain() {
     mainElement.style.width = (window.innerWidth) + 'px';
 }
