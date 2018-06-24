@@ -1,5 +1,8 @@
+/* fonts */
 @import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);/*!
 
+/* icons */
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 
 
 /*!
@@ -79,8 +82,17 @@ clients {
   background:#FDB915 !important;
 }
 
+.facebook {
+  color:#4267B2;
+}
 
+.envelope {
+  color:#FDB915;
+}
 
+.phone {
+  color:#efb223;
+}
 /**********
 typography
 **********/
@@ -97,6 +109,10 @@ form {
   padding-bottom: 30px;
 }
 
+.fa {
+  font-size: 1.3em;
+  padding-left: 5px;
+}
 /******
 General
 *******/
