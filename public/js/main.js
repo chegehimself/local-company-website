@@ -11,3 +11,6 @@ $(window).on('scroll', function() {
         $('#top-top').stop().animate({padding: "10px 0px 20px 0px"}, 800);
     }
 });
+
+
+// shake quote button
