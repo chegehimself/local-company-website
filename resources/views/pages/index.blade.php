@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('customized')
+    Home
+@endsection
+
 @section('content')
     
 @endsection
