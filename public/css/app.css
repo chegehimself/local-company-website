@@ -16,13 +16,18 @@ html {
   -webkit-text-size-adjust: 100%;
   background: #FFFFFF !important;
 }
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+
 
 /*****
 color
 ******/
 
 body {
-  margin: 0;
   background: white !important;
 }
 
@@ -35,20 +40,12 @@ a {
   color: #AAAAAA;
 }
 
-/* .navbar {
-  background:#F1F2F3 !important;
-} */
-
-/* #navbar {
-  background:#F1F2F3 !important;
-  
-} */
 .top-nav {
   background:#F1F2F3 !important;
 }
 
 .navbar-default .navbar-collapse {
-  border-color:white;
+  border-color:white !important;
 }
 
 .navbar-default {
@@ -62,31 +59,125 @@ a {
 push {
   color:#000;
 }
+
+
+.navbar-default .navbar-nav > li > a{
+  color: #000 !important;
+}
+
+.sec-nav .navbar-nav > li > a:hover{
+  color:#FFFFFF !important;
+  background:#FDB915 !important;
+}
+
+clients {
+  background: #FFFFFF !important;
+}
+
+.dropdown-menu > li > a:hover {
+  color:#FFFFFF !important;
+  background:#FDB915 !important;
+}
+
+
+
 /**********
- typography
- **********/
+typography
+**********/
 .text-social {
   font-family:montserrat;
 }
 
+.push {
+  padding-top:27px;
+  font-size: 1em;
+}
 
+form {
+  padding-bottom: 30px;
+}
 
 /******
- General
+General
 *******/
-.spacer {
-  height: 70px;
-}
 
 .main-nav {
   margin-top: -20px;
 }
 
-.push {
-  padding-top:27px;
-  font-size: 1.2em;
+
+.topic-image {
+  width: 100%;
+  position: relative;
+  padding:0 0;
+  display: block;
+  max-width: 100%;
+  height: fixed;
+  border: 0 !important;
 }
 
+.form-control {
+  border-color: #FDB915 !important;
+  border-radius: 0% !important;
+}
+
+
+
+.fix {
+  background-color: #FFFFFF;
+  position:fixed !important;
+  width:100%;
+  z-index:100;
+}
+
+.dropdown-menu > li > a {
+  white-space: wrap;
+  display: block;
+  clear: both;
+  padding: 12px 15px;
+  background-color: transparent;
+  font-size: 13px;
+  font-weight: 300;
+
+
+  transition: all .3s ease;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: initial;
+}
+
+li,a {
+  transition: all .3s ease;
+  -webkit-transition-duration: .3s;
+     -moz-transition-duration: .3s;
+     -o-transition-duration: .3s;
+     transition-duration: .3s;
+     transition-property: font-size, color;
+}
+
+#end-line:after {
+  color:#000 !important;
+  content: "_";
+}
+#drupal{
+  padding: 0px 40px 40px 40px;
+}
+
+#images {
+  padding: 170px 0px 0px 0px !important;
+}
+
+
+#design {
+  padding-left: 70px;
+  padding-top: 70px;
+  text-align: left;
+}
+
+#all-design {
+  background: #F1F2F3;
+}
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 
 @media print {
