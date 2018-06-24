@@ -7,8 +7,6 @@
         <link rel="stylesheet" href="{{asset('css/app.css')}}" >
         <link rel="stylesheet" href="{{asset('css/normalize.css')}}" >
         <link rel="shortcut icon" href="{{{ asset('imgs/favicon.png') }}}">
-        <script src="{{asset('js/app.js')}}" type="text/javascript"></script>
-        <script src="{{asset('js/main.js')}}" type="text/javascript"></script>
         <title>{{config('app.name', 'Nice')}}: @yield('customized')</title>
 
 
@@ -32,5 +30,8 @@
         <div id="drupal">
             @yield('contact')
         </div>
+
     </body>
+    <script src="{{asset('js/app.js')}}" type="text/javascript"></script>
+    <script src="{{asset('js/main.js')}}" type="text/javascript"></script>
 </html>
