@@ -8,10 +8,11 @@
         <link rel="stylesheet" href="{{asset('css/normalize.css')}}" >
         <link rel="shortcut icon" href="{{{ asset('imgs/favicon.png') }}}">
         <title>{{config('app.name', 'Nice')}}: @yield('customized')</title>
-
+        <link rel="stylesheet" href="{{asset('css/semantic.min.css')}}" >
 
     </head>
     <body>
+        <div id="mobile"></div>
         @include('inc.navbar')
         @yield('main-nav')
         <div class="container">
@@ -32,10 +33,10 @@
         </div>
         <div id="footer" class="container">
             <div class="row">
-                <div class="col-md-6 class="text-left"">
+                <div class="col-md-6 text-left">
                     <span>Copyright &copy; 2018</span>
                 </div>
-                <div class="col-md-6 text-right">
+                <div class="col-md-6 text-right ts">
                     <span class="text">Terms and coditions</span>
                 </div>
             </div>

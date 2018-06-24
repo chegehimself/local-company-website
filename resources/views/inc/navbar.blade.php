@@ -1,6 +1,6 @@
 
 @section('main-nav')
-<div class="fix">
+<div id="fix" class="fix">
 <nav class="navbar top-nav fixedNav navbar-default">
     <div class="container">
       <div id="navbar" class="collapse navbar-collapse">

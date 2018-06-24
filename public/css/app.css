@@ -106,6 +106,7 @@ clients {
   box-shadow:0 0 20px white;
 }
 
+
 /*********************
 shake button
 *************************/
@@ -179,7 +180,7 @@ General
   padding:0 0;
   display: block;
   max-width: 100%;
-  height: fixed;
+  height: absolute;
   border: 0 !important;
 }
 
@@ -232,7 +233,7 @@ li,a {
 }
 
 #images {
-  padding: 170px 0px 0px 0px !important;
+  padding: 70px 0px 0px 0px !important;
 }
 
 
@@ -248,6 +249,35 @@ li,a {
 
 #footer {
   padding-bottom: 20px;
+}
+
+.ts {
+  padding-bottom: 10px !important;
+}
+
+.item {
+  text-transform: uppercase;
+}
+
+.item:before {
+  content: none !important;
+}
+
+.item {
+  padding-right: 1vh;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.darkblue {
+  background-color: #f3cf06 !important;
+  color: white !important;
+}
+
+.menu {
+  min-height: 2em;
 }
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 
