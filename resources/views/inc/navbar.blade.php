@@ -6,7 +6,7 @@
       <div id="navbar" class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
           <li><a target="_blank" href="https://www.facebook.com/orangesoft"><span class="text-social">Follow us on:</span><i class="fa fa-facebook"></i></a></li>
-          <li><a href="mailto:sale@os.my"><span class="text-social">sales@os.my</span></a></li>
+          <li><a href="mailto:sale@os.my"><span class="text-social">sales@os.my</span><i class="fa fa-facebook"></i></a></li>
           <li><a href="tel:+603-9054 8817"><span class="text-social">+603-9054 8817</span></a></li>
         </ul>
       </div><!--/.nav-collapse -->
