@@ -260,6 +260,8 @@ form {
 .portfolio-image {
   border:3px solid #FCE072 !important;
   background: url(../imgs/FAM_0.png) no-repeat center center;
+  width: 260px !important;
+  margin-left:30px;
 }
 
 .space-x{
