@@ -25,56 +25,71 @@
 @section('portfoo')
 
 <div class="row">
-        <div class="col-md-3 thumbnail portfolio-image">
+        <a href="#">
+        <div class="col-md-3 thumbnail img-responsive portfolio-image">
             <div class="space-x">
 
             </div>
             <div id="port-text"><p><span>FAM</span></p></div>
         </div>
-        <div class="col-md-3 thumbnail portfolio-image">
+    </a>
+    <a href="#">
+        <div class="col-md-3 thumbnail img-responsive portfolio-image">
                 <div class="space-x">
 
                     </div>
                     <div id="port-text"><p><span>investSmartSc</span></p></div>
         </div>
-        <div class="col-md-3 thumbnail portfolio-image">
+    </a>
+    <a href="#">
+        <div class="col-md-3 thumbnail img-responsive portfolio-image">
                 <div class="space-x">
 
                     </div>
                     <div id="port-text"><p><span>Scicom</span></p></div>
         </div>
-        <div class="col-md-3 thumbnail portfolio-image">
+    </a>
+    <a href="#">
+        <div class="col-md-3 thumbnail img-responsive portfolio-image">
                 <div class="space-x">
 
                     </div>
                     <div id="port-text"><p><span>V integrated wellness</span></p></div>
         </div>
+    </a>
     </div>
     <div class="row">
-        <div class="col-md-3 thumbnail portfolio-image">
+        <a href="#">
+        <div class="col-md-3 thumbnail img-responsive portfolio-image">
                 <div class="space-x">
-                    SEGI University
                     </div>
                     <div id="port-text"><p><span>MIEA</span></p></div>
         </div>
-        <div class="col-md-3 thumbnail portfolio-image">
+        </a>
+        <a href="#">
+        <div class="col-md-3 thumbnail img-responsive portfolio-image">
                 <div class="space-x">
 
                     </div>
                     <div id="port-text"><p><span>Hitachi Sunway</span></p></div>
         </div>
-        <div class="col-md-3 thumbnail portfolio-image">
+        </a>
+        <a href="#">
+        <div class="col-md-3 thumbnail img-responsive portfolio-image">
                 <div class="space-x">
 
                     </div>
                     <div id="port-text"><p><span>Finance Accredation Agency</span></p></div>
         </div>
-        <div class="col-md-3 thumbnail portfolio-image">
+        </a>
+        <a href="#">
+        <div class="col-md-3 thumbnail img-responsive portfolio-image">
                 <div class="space-x">
 
                     </div>
                     <div id="port-text"><p><span>Malysia Major Events</span></p></div>
             </div>
         </div>
+        </a
 
 @endsection
