@@ -16,9 +16,9 @@
         <div id="slideshow" class="topic-image img-responsive thumbnail text-center">
             <div class="slideshow-container">
 
-                <div class="mySlides">
+                {{-- <div class="mySlides">
                     <img src="{{asset('imgs/web01.png')}}" alt="Portfolio Image" />
-                </div>
+                </div> --}}
                 <div class="mySlides">
                     <img src="{{asset('imgs/inner-banner-joinus_0.jpg')}}" alt="Portfolio Image" />
                 </div>
@@ -87,4 +87,151 @@
                         </div>
                 </div>          
 </div>
+@endsection
+
+@section('afterimg')
+    <p><strong><h1> CAN WE HELP?</h1></strong></p>
+    <p>
+        Web design and development are our passion and we’re eager to prove it to you. 
+        Team up with us for a detailed web maintenance, creative web design or a secure
+        eCommerce, and we will take your website to a whole new level, where conversion 
+        rates escalate.
+    </p>
+    <div id="marketing" class="row text-left">
+        <div class="col-md-4 row-eq-height">
+            <div id="marketing-header" class="m-header">
+                    <p>
+                        <i id="cog" class="fa fa-cog"></i>
+                    </p>
+                <p>
+                    <h1>WEB MAINTENANCE</h1>
+                </p>
+            </div>
+            <p>You’ve built and launched your website (phew!) but it’s not over yet, this is just the beginning!
+                    Keeping your content and web design up-to-date is the secret to online success. Subscribe for
+                     our maintenance plan and let professionals take care of that.
+            </p>
+            <button id="read-more" class="btn btn-primary btn-lg">READ MORE</button>
+        </div>
+        <div class="col-md-4 row-eq-height">
+            <div id="marketing-header-1" class="m-header">
+                <p>
+                    <i id="cog" class="fa fa-cog"></i>
+                </p>
+                <p class="deesign">
+                    <h1>WEB DESIGN</h1>
+                </p>
+            </div>
+            <p>
+                We offer: A completely new website
+                    A website revamp
+                    Have you heard about responsive web design?
+                    Nowadays, mobile devices are used more for searching online than desktops. That’s why it’s 
+                    a MUST to have a mobile responsive web design. You don’t want your visitors to come and leave 
+                    immediately just because your website is not user-friendly. In Orangesoft, we deliver 100% 
+                    responsive web design.
+            </p>
+            <button id="read-more"  class="btn btn-primary btn-lg">READ MORE</button>
+        </div>
+        <div class="col-md-4 row-eq-height">
+                <div id="marketing-header-2" class="m-header">
+                    <p>
+                        <i id="cog" class="fa fa-cog"></i>
+                    </p>
+                    <p>
+                        <h1>ECOMERCE</h1>
+                    </p>
+                </div>
+            <p>
+                Are you searching for the best eCommerce web design service?
+                Implement your e-commerce master plan with Orangesoft E-commerce solution and get your web-shop
+                started! Don't waste your time struggling, we are here to help you.
+            </p>
+            <button id="read-more"  class="btn btn-primary btn-lg">READ MORE</button>
+        </div>
+    </div>
+
+@endsection
+
+@section('why-orange')
+    <div id="why" class="contatiner why">
+    <div class="container text-center">
+            <p><b><strong><h1>WHY ORANGESOFT?</h1></strong></b></p>
+            <p class="text-center">
+            You are looking at one of the best web design companies. Since 2007, we have created over 500 web designs for 
+            companies of all sizes and industries worldwide. 
+                         </p>
+    </div>
+    <div class="row text-center">
+            <div class="col-md-3">
+                <p><i class="fa fa-pencil"></i></p>
+                <p><h4> Content Management </h4></p>
+                   <p> We will teach you, how to easily update your content, manage your posts, 
+                   pages and categories from one central administrative area.
+                </p>
+            </div>
+            <div class="col-md-3">
+                    <p><i class="fa fa-pencil"></i></p>
+                    <p><h4> Powerful SEO </h4></p>
+                <p>
+                OrangeSoft's skillful optimization will help your business rank higher than your competitors 
+                in search engines like Google.
+                </p>
+            </div>
+            <div class="col-md-3">
+                    <p><i class="fa fa-pencil"></i></p>
+                    <p><h4> Interactive Banners</h4></p>
+                <p>
+                    Easily set-up your interactive banners with your latest promotions, news, 
+                    and events on your home page.
+                </p>
+            </div>
+            <div class="col-md-3">
+                    <p><i class="fa fa-pencil"></i></p>
+                    <p><h4> Responsive Web Design </h4></p>
+                <p>
+                        
+                        No matter, what device are your visitors using. With a responsive web design, 
+                        all of them get the same user experience.
+                </p>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-md-3">
+                    <p><i class="fa fa-pencil"></i></p>
+                    <p><h4> Zero Technical Knowledge Required </h4></p>
+                <p>
+                        
+                        No software to install, no scripts to upload, no annoying plugins to work with. Our system is easy-to-use.
+                </p>
+            </div>
+            <div class="col-md-3">
+                    <p><i class="fa fa-pencil"></i></p>
+                    <p><h4> Email Newsletter System </h4></p>
+                <p>
+                    
+                    Build and manage and send your emails with confidence! Our Newsletter system is social media-friendly. 
+                    Track your email campaigns with a built-in reporting system!
+                </p>
+            </div>
+            <div class="col-md-3">
+                    <p><i class="fa fa-pencil"></i></p>
+                    <p><h4> One Simple Solution for Everything </h4></p>
+                <p>
+                
+                With Orangesoft, you have control over everything with one simple centralized location. Saves you both 
+                time and money.
+                </p>
+            </div>
+            <div class="col-md-3">
+                    <p><i class="fa fa-pencil"></i></p>
+                    <p><h4>Google Analytics</h4></p>
+                <p>
+                
+                    Track your visitors’ behavior, demographic, interests and get useful reports on all your website traffic. 
+                    We automatically integrate Google Analytics with your website.
+                </p>
+                </div>
+            </div>
+        </div>
 @endsection

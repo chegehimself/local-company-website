@@ -254,6 +254,28 @@ form {
   to {opacity: 1}
 }
 
+
+/* portfolio size */
+.portfolio-image {
+  margin-right: 48px !important;
+  height: 180px;
+  width: 250px !important;
+  background: url(../imgs/FAM_0.png) no-repeat center center;
+}
+
+.space-x{
+  padding-top:0 !important;
+  height: 160px;
+}
+
+#port-text {
+  color:#B3B3B3; 
+}
+
+#portfoo {
+  padding: 32px;
+}
+
 /******
 General
 *******/
@@ -314,9 +336,11 @@ li,a {
 }
 
 #end-line:after {
-  color:#000 !important;
   content: "_";
+    height: 1px;
+    color: #000;
 }
+
 #drupal{
   padding: 0px 40px 40px 40px;
 }
@@ -373,6 +397,93 @@ a:hover {
 #remove {
   display: none;
 }
+
+/* after images section */
+#afterimg {
+  margin-top: 20px !important;
+}
+
+
+#marketing {
+  padding-top: 100px;
+}
+
+.row-eq-height {
+  background: #F2F4F4;
+  height: 400px;
+  margin: 0 !important;
+  border:1px solid rgb(255, 255, 255);
+}
+
+.row-eq-height:hover {
+  font-size: 1em;
+  color: #7DCC93;
+  border:3px solid rgb(255, 255, 255);
+}
+
+#marketing-header {
+  height: 150px;
+  background: #2579a9;
+}
+
+#marketing-header-1 {
+  height: 150px;
+  background: #FDB915;
+  margin-top: -30px;
+}
+
+#marketing-header-2 {
+  height: 150px;
+  background: #1ABC9C;
+}
+
+.m-header{
+  margin-top: 0;
+  /* font-size: 24px; */
+  color: #fff;
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  padding-left: 0;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-left: -13.5px !important;
+  margin-right: -13.5px !important;
+}
+
+#read-more {
+  margin-bottom: 30px;
+}
+
+
+.deesign {
+  margin-top: -20px !important;
+}
+
+.fa-cog {
+  font-size: 50px;
+}
+
+.fa { 
+  transition: all 0.3s ease-in-out 0s;
+ }
+
+ 
+ .fa:hover {
+    cursor: default;
+    transform: rotate(360deg);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+#why {
+  padding-top: 100px !important;
+  background: #F5F7F7;
+}
+
+.col-md-3, #why-main {
+  padding:0 30px 0 30px !important;
+}
+
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 
 @media print {

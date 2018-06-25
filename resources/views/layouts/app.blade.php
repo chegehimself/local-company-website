@@ -25,13 +25,24 @@
         <div class="text-center">
             @yield('clients')
         </div>
+        </br>
+        </hr>
+        <div id="afterimg" class="text-center afterimg container">
+            @yield('afterimg')
+        </div>
+        <div id="why-main">
+            @yield('why-orange')
+        </div>
+        <div id="portfoo" class="text-center">
+            @yield('portfoo')
+        </div>
         <div class="text-center">
                 @yield('blogs')
         </div>
         <div id="drupal">
             @yield('contact')
         </div>
-             {{-- <p id="footer" class="text-center">Copyright &copy; 2018 Terms and coditions</p> --}}
+             <p id="footer" class="text-center">Copyright &copy; 2018 Terms and coditions</p>
 
     </body>
     <script src="{{asset('js/app.js')}}" type="text/javascript"></script>
