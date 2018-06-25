@@ -548,7 +548,25 @@ a:hover {
   margin-bottom: 100px;
  }
 
+ .make-me-bold {
+   font-weight: 1000;
+ }
 
+ #about-we {
+  margin-top: 40px;
+ }
+
+ #we {
+  background: #F7F8F8;
+ }
+
+ .aboutus-image {
+   height:350px;
+ }
+
+ h4,h3,h5 {
+   color: black;
+ }
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 
 @media print {
