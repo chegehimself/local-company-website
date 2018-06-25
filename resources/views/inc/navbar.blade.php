@@ -21,7 +21,7 @@
               <img id="nav-log" src="{{asset('imgs/logo_0.png')}}" alt="Home" />
             </a>
            </div>
-            <div id="navigation-main" class="col-xs-3 col-sm-9 push">
+            <div id="navigation-main" class="col-sm-9 push">
               <div class="navbar navbar-default sec-nav container" id="navbar" role="banner">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle toggle-menu menu-right push-body" data-toggle="collapse" data-target=".navbar-collapse">
@@ -35,7 +35,7 @@
                   <div class="region region-navigation-collapsible">
                       <nav role="navigation" aria-labelledby="block-orange2016-main-menu-menu" id="block-orange2016-main-menu">
                       <ul class="menu nav navbar-nav">
-                        <li>
+                        <li class="home">
                           <a href="/" >Home</a>
                         </li>
                         <li class="dropdown">
@@ -55,7 +55,7 @@
                         </li>
                         </ul>
                         </li>
-                        <li>
+                        <li class="portfolio">
                           <a href="/portfolio">Portfolio</a>
                         </li>
                         <li class="dropdown">
@@ -75,10 +75,10 @@
                         </li>
                         </ul>
                         </li>
-                        <li>
+                        <li class="blog">
                           <a href="/blog">Blog</a>
                         </li>
-                        <li>
+                        <li class="contact">
                         <a href="/contact">Contact Us</a>
                         </li>
                       </ul>

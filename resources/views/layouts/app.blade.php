@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="{{asset('css/normalize.css')}}" >
         <link rel="shortcut icon" href="{{{ asset('imgs/favicon.png') }}}">
         <title>{{config('app.name', 'Nice')}}: @yield('customized')</title>
-        <link rel="stylesheet" href="{{asset('css/semantic.min.css')}}" >
+        {{-- <link rel="stylesheet" href="{{asset('css/semantic.min.css')}}" > --}}
 
     </head>
     <body>
@@ -31,7 +31,7 @@
         <div id="drupal">
             @yield('contact')
         </div>
-             <p id="footer" class="text-center">Copyright &copy; 2018 Terms and coditions</p>
+             {{-- <p id="footer" class="text-center">Copyright &copy; 2018 Terms and coditions</p> --}}
 
     </body>
     <script src="{{asset('js/app.js')}}" type="text/javascript"></script>
