@@ -14,6 +14,7 @@ $(window).on('scroll', function() {
 
 });
 
+// alert(window.innerWidth);
 
 // let sidebarSize = document.getElementById("fix").offsetWidth;
 // let mainElement = document.getElementById("mobile");
@@ -90,4 +91,8 @@ else if(active == '/blog'){
 }
 else if(active == '/contact'){
     $( "li.contact" ).toggleClass( "activeNow");
+    if (window.innerWidth < '768'){
+        $("#fix").hide();
+    }
+
 }
