@@ -36,7 +36,7 @@
         <div id="portfoo" class="text-right">
             @yield('portfoo')
         </div>
-        <div class="text-center">
+        <div class="container text-left">
                 @yield('blogs')
         </div>
         <div id="drupal">
