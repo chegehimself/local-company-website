@@ -57,32 +57,32 @@
 @section('clients')
 <div class="row clients">
         <div class="col-md-2">
-            <div class="topic-image img-responsive thumbnail text-center">
+            <div class="topic-image img-responsive text-center">
                 <img src="{{asset('imgs/servcorp-new.png')}}" alt="Portfolio Image" />
             </div>
         </div> 
         <div class="col-md-2">
-                <div class="topic-image img-responsive thumbnail text-center">
+                <div class="topic-image img-responsive text-center">
                     <img src="{{asset('imgs/faa-new.png')}}" alt="Portfolio Image" />
                 </div>
         </div> 
         <div class="col-md-2">
-                <div class="topic-image img-responsive thumbnail text-center">
+                <div class="topic-image img-responsive text-center">
                     <img src="{{asset('imgs/cagamas-new.png')}}" alt="Portfolio Image" />
                 </div>
             </div> 
             <div class="col-md-2">
-                    <div class="topic-image img-responsive thumbnail text-center">
+                    <div class="topic-image img-responsive text-center">
                         <img src="{{asset('imgs/ksb2-new.png')}}" alt="Portfolio Image" />
                     </div>
             </div> 
             <div class="col-md-2">
-                    <div class="topic-image img-responsive thumbnail text-center">
+                    <div class="topic-image img-responsive text-center">
                         <img src="{{asset('imgs/osk.png')}}" alt="Portfolio Image" />
                     </div>
                 </div> 
                 <div class="col-md-2">
-                        <div class="topic-image img-responsive thumbnail text-center">
+                        <div class="topic-image img-responsive text-center">
                             <img src="{{asset('imgs/landmark.png')}}" alt="Portfolio Image" />
                         </div>
                 </div>          
@@ -164,14 +164,14 @@
     </div>
     <div class="row text-center">
             <div class="col-md-3">
-                <p><i class="fa fa-pencil"></i></p>
+                <p><i class="ion ion-briefcase"></i></p>
                 <p><h4> Content Management </h4></p>
                    <p> We will teach you, how to easily update your content, manage your posts, 
                    pages and categories from one central administrative area.
                 </p>
             </div>
             <div class="col-md-3">
-                    <p><i class="fa fa-pencil"></i></p>
+                    <p><i class="ion ion-briefcase"></i></p>
                     <p><h4> Powerful SEO </h4></p>
                 <p>
                 OrangeSoft's skillful optimization will help your business rank higher than your competitors 
@@ -179,7 +179,7 @@
                 </p>
             </div>
             <div class="col-md-3">
-                    <p><i class="fa fa-pencil"></i></p>
+                    <p><i class="ion ion-briefcase"></i></p>
                     <p><h4> Interactive Banners</h4></p>
                 <p>
                     Easily set-up your interactive banners with your latest promotions, news, 
@@ -187,7 +187,7 @@
                 </p>
             </div>
             <div class="col-md-3">
-                    <p><i class="fa fa-pencil"></i></p>
+                    <p><i class="ion ion-briefcase"></i></p>
                     <p><h4> Responsive Web Design </h4></p>
                 <p>
                         
@@ -198,7 +198,7 @@
         </div>
         <div class="row text-center">
             <div class="col-md-3">
-                    <p><i class="fa fa-pencil"></i></p>
+                    <p><i class="ion ion-briefcase"></i></p>
                     <p><h4> Zero Technical Knowledge Required </h4></p>
                 <p>
                         
@@ -206,7 +206,7 @@
                 </p>
             </div>
             <div class="col-md-3">
-                    <p><i class="fa fa-pencil"></i></p>
+                    <p><i class="ion ion-briefcase"></i></p>
                     <p><h4> Email Newsletter System </h4></p>
                 <p>
                     
@@ -215,7 +215,7 @@
                 </p>
             </div>
             <div class="col-md-3">
-                    <p><i class="fa fa-pencil"></i></p>
+                    <p><i class="ion ion-briefcase"></i></p>
                     <p><h4> One Simple Solution for Everything </h4></p>
                 <p>
                 
@@ -224,7 +224,7 @@
                 </p>
             </div>
             <div class="col-md-3">
-                    <p><i class="fa fa-pencil"></i></p>
+                    <p><i class="ion ion-briefcase"></i></p>
                     <p><h4>Google Analytics</h4></p>
                 <p>
                 

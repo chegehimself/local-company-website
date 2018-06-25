@@ -4,7 +4,8 @@
 /* icons */
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 
-
+/* ionicons */
+@import url(https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css);
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
@@ -463,6 +464,7 @@ a:hover {
   font-size: 50px;
 }
 
+/* transitional property */
 .fa { 
   transition: all 0.3s ease-in-out 0s;
  }
@@ -474,6 +476,12 @@ a:hover {
     transition: all 0.3s ease-in-out 0s;
 }
 
+#marketing-header:hover ~ #roll-child{
+      cursor: default;
+      transform: rotate(360deg);
+      transition: all 0.3s ease-in-out 0s;
+}
+
 #why {
   padding-top: 100px !important;
   background: #F5F7F7;
@@ -483,6 +491,42 @@ a:hover {
   padding:0 30px 0 30px !important;
 }
 
+.dimension-clients {
+  height: 120px !important; 
+  width: 200px;
+}
+
+/* clients images */
+#myclients{
+  height: 200px !important;
+
+}
+.clients, clientele {
+  margin:0 !important;
+  height: 80px !important;
+}
+
+/* ionicons */
+.ion {
+  font-size:3.9em;
+  color:#000;
+}
+
+/* transitional property */
+.ion { 
+  transition: all 0.3s ease-in-out 0s;
+ }
+
+ /* if hovering over ionicons */
+.ion:hover {
+    cursor: default;
+    transform: rotate(360deg);
+    transition: all 0.3s ease-in-out 0s;
+    border:3px solid #FDB915;
+    color:  #FDB915;
+    border-radius: 90%;
+    background: #FFFFFF;
+}
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 
 @media print {
