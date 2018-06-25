@@ -527,6 +527,28 @@ a:hover {
     border-radius: 90%;
     background: #FFFFFF;
 }
+
+/*
+ * blog
+ */
+ .blog-more {
+  color:#FDB915;
+  text-decoration: none !important;
+ }
+
+ .blog-more:hover {
+  color:#FDB915;
+ }
+
+ .blog-more:visited {
+  color:#FDB915;
+ }
+
+ #blog-post {
+  margin-bottom: 100px;
+ }
+
+
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 
 @media print {
