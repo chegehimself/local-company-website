@@ -13,12 +13,12 @@
       </div><!--/.nav-collapse -->
     </div>
 </nav>
-<div class="container fixedNav">
+<div class="fixedNav">
   <div id="main-nav" class="row main-nav">
     <div id="top-top" class="col-sm-12" role="heading">
            <div class="col-xs-9 col-sm-3"> 
             <a class="logo navbar-btn pull-left" href="/" title="Home" rel="home">
-              <img id="nav-log" src="{{asset('imgs/logo_0.png')}}" alt="Home" />
+              <img class="img-responsive" id="nav-log" src="{{asset('imgs/logo_0.png')}}" alt="Home" />
             </a>
            </div>
             <div id="navigation-main" class="col-sm-9 push">
