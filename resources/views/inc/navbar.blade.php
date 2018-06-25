@@ -3,7 +3,7 @@
 <div id="fix" class="fix">
 <nav class="navbar top-nav fixedNav navbar-default">
     <div class="container">
-      <div id="navbar" class="collapse navbar-collapse">
+      <div id="navbar remove" class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
           <li><a target="_blank" href="https://www.facebook.com/orangesoft"><span class="text-social">Follow us on:</span><i class="fa facebook fa-facebook-official"></i></a></li>
           <li><a href="mailto:sale@os.my"><span class="text-social">sales@os.my</span><i class="fa envelope fa-envelope"></i></a></li>

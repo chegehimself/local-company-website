@@ -1,3 +1,7 @@
+#remove {
+  display: none !important;
+}
+
 /* fonts */
 @import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);/*!
 
@@ -23,8 +27,6 @@ html, body {
   max-width: 100%;
   overflow-x: hidden;
 }
-
-
 
 /*****
 color
@@ -167,14 +169,16 @@ form {
   padding-right: 5px;
 }
 
-
+#nav-log {
+  padding-top: 19.5px;
+}
 
 /******
 General
 *******/
 
 .main-nav {
-  margin-top: -20px;
+  margin-top: -35px;
 }
 
 
@@ -237,7 +241,7 @@ li,a {
 }
 
 #images {
-  padding: 70px 0px 0px 0px !important;
+  padding: 170px 0px 0px 0px !important;
 }
 
 
@@ -283,6 +287,10 @@ a:hover {
 
 .menu {
   min-height: 2em;
+}
+
+#remove {
+  display: none;
 }
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 

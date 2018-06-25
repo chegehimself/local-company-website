@@ -12,7 +12,7 @@
 
     </head>
     <body>
-        <div id="mobile"></div>
+        {{-- <div id="mobile"></div> --}}
         @include('inc.navbar')
         @yield('main-nav')
         <div class="container">
