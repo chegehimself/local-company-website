@@ -257,9 +257,7 @@ form {
 
 /* portfolio size */
 .portfolio-image {
-  margin-right: 48px !important;
-  height: 180px;
-  width: 250px !important;
+  border:3px solid #FCE072 !important;
   background: url(../imgs/FAM_0.png) no-repeat center center;
 }
 
