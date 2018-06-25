@@ -4,6 +4,10 @@
     
 @endsection
 
+@section('customized')
+    About
+@endsection
+
 @section('image')
 <div class="row">
     <div class="col-md-12">
