@@ -34,10 +34,10 @@ Truth is, without a professional website, you'll lose customers, market share an
 That's why you need a professional partner for your website, someone with a proven track record that helps your business get results.
 <div id="we">
 <div id="about-we" class="row">
-    <div class="col-md-6 text-center">
+    <div class="col-md-6 container text-center">
            <h4 class="make-me-bold"> <strong> One of the best Web Design companies worldwide </strong> </h4>
            <img class="aboutus-image" src="{{asset('imgs/aboutus01.png')}}" alt="about image">
-           <p class="text-left">
+           <p>
                 Orangesoft has helped over 500 companies, government agencies and SMEs worldwide in the past 10 years. We have an excellent reputation as one of Malaysia's leading Web design companies.
 
                 The fact is, we possess a strong track record of delivering on-time and to the expectations of our clients.
@@ -50,10 +50,10 @@ That's why you need a professional partner for your website, someone with a prov
                 one that fits your business vision. Not just a fancy-looking one.
            </p>
     </div>
-    <div class="col-md-6 text-center">
+    <div class="col-md-6 container text-center">
             <h4 class="make-me-bold text-center"> <strong> Customisation is our Specialty</strong></h4>
             <img class="aboutus-image" src="{{asset('imgs/aboutus02.png')}}" alt="about image">
-            <p class="text-left">
+            <p>
                     The truth is no two clients are alike. You have your own unique business objectives and vision. That's why we believe in customizing your website to support the pursuit of your business goals.
 
                     Our philosophy is simple, your website should be a vehicle that accelerates the achievement of your business goals. Unlike others, we are not interested to sell standard packages that limit your potential.
@@ -64,10 +64,10 @@ That's why you need a professional partner for your website, someone with a prov
 </div>
 
 <div id="about-we" class="row">
-        <div class="col-md-6 text-center">
+        <div class="col-md-6 container text-center">
                <h4 class="make-me-bold text-center"> <strong> Scalability is our Priority </strong> </h4>
                <img class="aboutus-image" src="{{asset('imgs/aboutus01.png')}}" alt="about image">
-               <p class="text-left">
+               <p>
                     Business in today's modern world is not static. It's dynamic and changing all the time. To succeed, you need a website that grows with your business and adapts to changes in the rapidly evolving business environment.
 
                     That's why we specialize in building websites on the Drupal platfrom; the very same platform used by the largest corporations and government agencies in the world. Websites such as The White House, FedEx, Linkedin and Stanford University use this powerful and versatile platform.
@@ -77,11 +77,12 @@ That's why you need a professional partner for your website, someone with a prov
                     It means your Website can grow with your organisation, without the need to rebuild it each time your organisation grows and evolves.
                     
                     To put it simply, Orangesoft is staffed with an elite group of experts and specialists equipped to do medium and big projects, that's why we are your best choice to fulfill both your present and future business needs.
+               </p>
         </div>
-        <div class="col-md-6 text-center">
+        <div class="col-md-6 container text-center">
                 <h4 class="make-me-bold"> <strong> Our TOP services include:</strong></h4>
                 <img class="aboutus-image" src="{{asset('imgs/aboutus02.png')}}" alt="about image">
-                <p class="text-left">
+                <p>
                         Custom-made web design and conceptualization
 Web integration with Drupal content management system
 Portal development (for real estate agencies, social community portal, custom portal among others)

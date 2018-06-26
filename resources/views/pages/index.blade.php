@@ -143,7 +143,7 @@
                     Keeping your content and web design up-to-date is the secret to online success. Subscribe for
                      our maintenance plan and let professionals take care of that.
             </p>
-            <button id="read-more" class="btn btn-primary btn-lg">READ MORE</button>
+            <button id="read-more" class="btn btn-primary btn-lg btn-maintenance">READ MORE</button>
         </div>
         <div class="col-md-4 row-eq-height">
             <div id="marketing-header-1" class="m-header">
@@ -163,7 +163,7 @@
                     immediately just because your website is not user-friendly. In Orangesoft, we deliver 100% 
                     responsive web design.
             </p>
-            <button id="read-more"  class="btn btn-primary btn-lg">READ MORE</button>
+            <button id="read-more"  class="btn btn-primary btn-lg btn-design">READ MORE</button>
         </div>
         <div class="col-md-4 row-eq-height">
                 <div id="marketing-header-2" class="m-header">
@@ -182,7 +182,7 @@
                 started! Don't waste your time struggling, we are here to help you.
             </div>
             </p>
-            <button id="read-more"  class="btn btn-primary btn-lg">READ MORE</button>
+            <button id="read-more"  class="btn btn-primary btn-lg btn-ecomerce">READ MORE</button>
         </div>
     </div>
 

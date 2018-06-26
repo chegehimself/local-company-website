@@ -18,7 +18,7 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 html {
-  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   background: #FFFFFF !important;
@@ -431,10 +431,18 @@ a:hover {
   border:1px solid rgb(255, 255, 255);
 }
 
+.row-eq-height {
+  -webkit-transition-duration: .2s;
+     -moz-transition-duration: .2s;
+     -o-transition-duration: .2s;
+     transition-duration: .2s;
+     transition-property: font-size, color;
+}
+
 .row-eq-height:hover {
   font-size: 1em;
-  color: #7DCC93;
-  border:3px solid rgb(255, 255, 255);
+  border:4px solid rgb(255, 255, 255);
+  color: #000;
 }
 
 #marketing-header {
@@ -469,8 +477,20 @@ a:hover {
 
 #read-more {
   margin-bottom: 30px;
+  border-radius: 0%;
+  border-color: transparent;
 }
 
+.btn-maintenance {
+  background: #48A2DE !important;
+} 
+.btn-design {
+  background:#FDB915 !important;
+}
+
+.btn-ecomerce {
+  background: #1ABC9C !important;
+}
 
 .deesign {
   margin-top: -20px !important;
@@ -483,6 +503,7 @@ a:hover {
 /* transitional property */
 .fa { 
   transition: all 0.3s ease-in-out 0s;
+  
  }
 
  
@@ -583,7 +604,6 @@ a:hover {
  h4,h3,h5 {
    color: black;
  }
-
 
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 
