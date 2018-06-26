@@ -256,10 +256,10 @@ form {
 }
 
 
-/* portfolio size */
+/* portfolio images */
 .portfolio-image {
-  border:3px solid #FCE072 !important;
-  background: url(../imgs/FAM_0.png) no-repeat center center;
+  border:1px solid #ddd !important;
+  background: url(../imgs/FAM_0.png) no-repeat center;
   width: 260px !important;
   margin-left:30px;
 }

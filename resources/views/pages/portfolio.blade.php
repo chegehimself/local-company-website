@@ -30,7 +30,7 @@
             <div class="space-x">
 
             </div>
-            <div id="port-text"><p><span>FAM</span></p></div>
+            <div id="port-text" class="text-left"><p><span>FAM</span></p></div>
         </div>
     </a>
     <a href="#">
@@ -38,7 +38,7 @@
                 <div class="space-x">
 
                     </div>
-                    <div id="port-text"><p><span>investSmartSc</span></p></div>
+                    <div id="port-text" class="text-left"><p><span>investSmartSc</span></p></div>
         </div>
     </a>
     <a href="#">
@@ -46,7 +46,7 @@
                 <div class="space-x">
 
                     </div>
-                    <div id="port-text"><p><span>Scicom</span></p></div>
+                    <div id="port-text" class="text-left"><p><span>Scicom</span></p></div>
         </div>
     </a>
     <a href="#">
@@ -54,7 +54,7 @@
                 <div class="space-x">
 
                     </div>
-                    <div id="port-text"><p><span>V integrated wellness</span></p></div>
+                    <div id="port-text" class="text-left"><p><span>V integrated wellness</span></p></div>
         </div>
     </a>
     </div>
@@ -63,7 +63,7 @@
         <div class="col-md-3 thumbnail img-responsive portfolio-image">
                 <div class="space-x">
                     </div>
-                    <div id="port-text"><p><span>MIEA</span></p></div>
+                    <div id="port-text" class="text-left"><p><span>MIEA</span></p></div>
         </div>
         </a>
         <a href="#">
@@ -71,7 +71,7 @@
                 <div class="space-x">
 
                     </div>
-                    <div id="port-text"><p><span>Hitachi Sunway</span></p></div>
+                    <div id="port-text" class="text-left"><p><span>Hitachi Sunway</span></p></div>
         </div>
         </a>
         <a href="#">
@@ -79,7 +79,7 @@
                 <div class="space-x">
 
                     </div>
-                    <div id="port-text"><p><span>Finance Accredation Agency</span></p></div>
+                    <div id="port-text" class="text-left"><p><span>Finance Accredation Agency</span></p></div>
         </div>
         </a>
         <a href="#">
@@ -87,7 +87,7 @@
                 <div class="space-x">
 
                     </div>
-                    <div id="port-text"><p><span>Malysia Major Events</span></p></div>
+                    <div id="port-text" class="text-left"><p><span>Malysia Major Events</span></p></div>
             </div>
         </div>
     </a>
@@ -99,7 +99,7 @@
             <div class="space-x">
 
             </div>
-            <div id="port-text"><p><span>FAM</span></p></div>
+            <div id="port-text" class="text-left"><p><span>FAM</span></p></div>
         </div>
     </a>
     <a href="#">
@@ -107,7 +107,7 @@
                 <div class="space-x">
 
                     </div>
-                    <div id="port-text"><p><span>investSmartSc</span></p></div>
+                    <div id="port-text" class="text-left"><p><span>investSmartSc</span></p></div>
         </div>
     </a>
     <a href="#">
@@ -115,7 +115,7 @@
                 <div class="space-x">
 
                     </div>
-                    <div id="port-text"><p><span>Scicom</span></p></div>
+                    <div id="port-text" class="text-left"><p><span>Scicom</span></p></div>
         </div>
     </a>
     <a href="#">
@@ -123,7 +123,7 @@
                 <div class="space-x">
 
                     </div>
-                    <div id="port-text"><p><span>V integrated wellness</span></p></div>
+                    <div id="port-text" class="text-left"><p><span>V integrated wellness</span></p></div>
         </div>
     </a>
     </div>
@@ -132,7 +132,7 @@
         <div class="col-md-3 thumbnail img-responsive portfolio-image">
                 <div class="space-x">
                     </div>
-                    <div id="port-text"><p><span>MIEA</span></p></div>
+                    <div id="port-text" class="text-left"><p><span>MIEA</span></p></div>
         </div>
         </a>
         <a href="#">
@@ -140,7 +140,7 @@
                 <div class="space-x">
 
                     </div>
-                    <div id="port-text"><p><span>Hitachi Sunway</span></p></div>
+                    <div id="port-text" class="text-left"><p><span>Hitachi Sunway</span></p></div>
         </div>
         </a>
         <a href="#">
@@ -148,7 +148,7 @@
                 <div class="space-x">
 
                     </div>
-                    <div id="port-text"><p><span>Finance Accredation Agency</span></p></div>
+                    <div id="port-text" class="text-left"><p><span>Finance Accredation Agency</span></p></div>
         </div>
         </a>
         <a href="#">
@@ -156,7 +156,7 @@
                 <div class="space-x">
 
                     </div>
-                    <div id="port-text"><p><span>Malysia Major Events</span></p></div>
+                    <div id="port-text" class="text-left"><p><span>Malysia Major Events</span></p></div>
             </div>
         </div>
     </a>
