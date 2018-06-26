@@ -689,6 +689,10 @@ a:hover {
   .row-eq-height{
     margin-bottom: 20px !important;
   } 
+
+  .top-nav {
+    display: none;
+  }
 }
 
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
