@@ -269,15 +269,28 @@ form {
   width: 260px !important;
   /* overflow-y: show; */
   margin-left:55px;
+  transition: background-position 1.5s ease-out 0.5s;
+  background-position: top center;
+  background-size: 100% auto!important;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+
+.portfolio-image:hover {
+	background-position: bottom center!important;
+	transition: background-position 5s linear 0s;
 }
 
 .space-x{
   padding-top:0 !important;
-  height: 160px;
+  height: 165px;
 }
 
 #port-text {
-  color:#B3B3B3; 
+  background:#efb223;
+  color: white;
+  margin: 0px -30px -11px -30px;
+  padding-left: 50%;
 }
 
 #portfoo {

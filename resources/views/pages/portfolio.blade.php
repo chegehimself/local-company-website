@@ -79,7 +79,7 @@
                 <div class="space-x">
 
                     </div>
-                    <div id="port-text" class="text-left"><p><span>Finance Accredation Agency</span></p></div>
+                    <div id="port-text" class="text-left"><p><span>Finance Accredation></div>
         </div>
         </a>
         <a href="#">
@@ -148,7 +148,7 @@
                 <div class="space-x">
 
                     </div>
-                    <div id="port-text" class="text-left"><p><span>Finance Accredation Agency</span></p></div>
+                    <div id="port-text" class="text-left"><p><span>Finance Accredation</span></p></div>
         </div>
         </a>
         <a href="#">
