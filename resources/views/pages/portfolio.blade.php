@@ -79,7 +79,7 @@
                 <div class="space-x">
 
                     </div>
-                    <div id="port-text" class="text-left"><p><span>Finance Accredation></div>
+                    <div id="port-text" class="text-left"><p><span>Finance Accredation</span></div>
         </div>
         </a>
         <a href="#">
