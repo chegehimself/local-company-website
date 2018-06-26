@@ -13,8 +13,8 @@
 @section('image')
 <div class="row">
     <div class="col-md-12">
-        <div class="topic-image img-responsive thumbnail text-center">
-            <img src="{{asset('imgs/inner-banner-contact-new-1.jpg')}}" alt="Portfolio Image" />
+        <div class="img-responsive img-responsive thumbnail text-center">
+            <img class="slide-img" src="{{asset('imgs/inner-banner-contact-new-1.jpg')}}" alt="Portfolio Image" />
         </div>
     </div>    
 </div>

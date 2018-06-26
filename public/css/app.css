@@ -545,6 +545,7 @@ a:hover {
   border: 10px solid white;
   border-radius: 80%;
   color: #fdb915;
+  font-size: 54px;
 }
 /* transitional property */
 .fa { 
@@ -684,7 +685,7 @@ a:hover {
     
   }
   .slide-img{
-    height: auto !important;
+    height: 200px !important;
   }
   .row-eq-height{
     margin-bottom: 20px !important;
@@ -695,6 +696,9 @@ a:hover {
   }
   .navbar-collapse{
     /* width: auto !important; */
+  }
+  #portfoo{
+    display: none;
   }
 }
 
