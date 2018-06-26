@@ -637,6 +637,17 @@ a:hover {
    color: black;
  }
 
+
+ .image-responsive::after {
+   width: 100%;
+ }
+
+ /* I hate outlines in my pages */
+ * {
+	outline: none !important;
+}
+
+
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 
 @media print {
