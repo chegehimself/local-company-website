@@ -93,9 +93,10 @@ else if(active == '/blog'){
 }
 else if(active == '/contact'){
     $( "li.contact" ).toggleClass( "activeNow");
-    if (window.innerWidth < '768'){
-        $("#fix").hide();
-    }
+    // THIS IS FOR VERY VERY SMALL SCREENS PURPOSES CHANGE TO WIDTH LIKE(200)
+    // if (window.innerWidth < '768'){
+    //     $("#fix").hide();
+    // }
 
 }
 
