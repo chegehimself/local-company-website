@@ -58,32 +58,64 @@
 <div class="row clients">
         <div class="col-md-2">
             <div class="topic-image img-responsive text-center">
-                <img src="{{asset('imgs/servcorp-new.png')}}" alt="Portfolio Image" />
+                <img class="clientele-img" src="{{asset('imgs/servcorp-new.png')}}" alt="Portfolio Image" />
             </div>
         </div> 
         <div class="col-md-2">
                 <div class="topic-image img-responsive text-center">
-                    <img src="{{asset('imgs/faa-new.png')}}" alt="Portfolio Image" />
+                    <img class="clientele-img" src="{{asset('imgs/faa-new.png')}}" alt="Portfolio Image" />
                 </div>
         </div> 
         <div class="col-md-2">
                 <div class="topic-image img-responsive text-center">
-                    <img src="{{asset('imgs/cagamas-new.png')}}" alt="Portfolio Image" />
+                    <img class="clientele-img" src="{{asset('imgs/cagamas-new.png')}}" alt="Portfolio Image" />
                 </div>
             </div> 
             <div class="col-md-2">
                     <div class="topic-image img-responsive text-center">
-                        <img src="{{asset('imgs/ksb2-new.png')}}" alt="Portfolio Image" />
+                        <img class="clientele-img" src="{{asset('imgs/ksb2-new.png')}}" alt="Portfolio Image" />
                     </div>
             </div> 
             <div class="col-md-2">
                     <div class="topic-image img-responsive text-center">
-                        <img src="{{asset('imgs/osk.png')}}" alt="Portfolio Image" />
+                        <img class="clientele-img" src="{{asset('imgs/osk.png')}}" alt="Portfolio Image" />
                     </div>
                 </div> 
                 <div class="col-md-2">
                         <div class="topic-image img-responsive text-center">
-                            <img src="{{asset('imgs/landmark.png')}}" alt="Portfolio Image" />
+                            <img class="clientele-img" src="{{asset('imgs/landmark.png')}}" alt="Portfolio Image" />
+                        </div>
+                </div>          
+</div>
+<div class="row clients clients-second-row">
+        <div class="col-md-2">
+            <div class="topic-image img-responsive text-center">
+                <img class="clientele-img" src="{{asset('imgs/bimb-new.png')}}" alt="Portfolio Image" />
+            </div>
+        </div> 
+        <div class="col-md-2">
+                <div class="topic-image img-responsive text-center">
+                    <img class="clientele-img" src="{{asset('imgs/bimb-new.png')}}" alt="Portfolio Image" />
+                </div>
+        </div> 
+        <div class="col-md-2">
+                <div class="topic-image img-responsive text-center">
+                    <img class="clientele-img" src="{{asset('imgs/fam-new.png')}}" alt="Portfolio Image" />
+                </div>
+            </div> 
+            <div class="col-md-2">
+                    <div class="topic-image img-responsive text-center">
+                        <img class="clientele-img" src="{{asset('imgs/kip-new.png')}}" alt="Portfolio Image" />
+                    </div>
+            </div> 
+            <div class="col-md-2">
+                    <div class="topic-image img-responsive text-center">
+                        <img class="clientele-img" src="{{asset('imgs/mceb2-new.png')}}" alt="Portfolio Image" />
+                    </div>
+                </div> 
+                <div class="col-md-2">
+                        <div class="topic-image img-responsive text-center">
+                            <img class="clientele-img" src="{{asset('imgs/mdec-new.png')}}" alt="Portfolio Image" />
                         </div>
                 </div>          
 </div>
@@ -116,7 +148,7 @@
         <div class="col-md-4 row-eq-height">
             <div id="marketing-header-1" class="m-header">
                 <p>
-                    <i id="cog" class="fa fa-cog"></i>
+                    <i id="cog" class="fa fa-desktop"></i>
                 </p>
                 <p class="deesign">
                     <h1>WEB DESIGN</h1>
@@ -135,17 +167,20 @@
         </div>
         <div class="col-md-4 row-eq-height">
                 <div id="marketing-header-2" class="m-header">
-                    <p>
-                        <i id="cog" class="fa fa-cog"></i>
+                    <div id="icon-header">
+                        <i id="cog" class="fa fa-cart-arrow-down"></i>
+                        {{-- s<ion-icon name="cart"></ion-icon> --}}
+                    </div>
                     </p>
                     <p>
                         <h1>ECOMERCE</h1>
                     </p>
                 </div>
-            <p>
+            <div id="ecomerce">
                 Are you searching for the best eCommerce web design service?
                 Implement your e-commerce master plan with Orangesoft E-commerce solution and get your web-shop
                 started! Don't waste your time struggling, we are here to help you.
+            </div>
             </p>
             <button id="read-more"  class="btn btn-primary btn-lg">READ MORE</button>
         </div>
