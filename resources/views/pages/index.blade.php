@@ -20,16 +20,16 @@
                     <img src="{{asset('imgs/web01.png')}}" alt="Portfolio Image" />
                 </div> --}}
                 <div class="mySlides">
-                    <img src="{{asset('imgs/inner-banner-joinus_0.jpg')}}" alt="Portfolio Image" />
+                    <img class="slide-img" src="{{asset('imgs/inner-banner-joinus_0.jpg')}}" alt="Portfolio Image" />
                 </div>
                 <div class="mySlides">
-                    <img src="{{asset('imgs/inner-banner-psd.jpg')}}" alt="Portfolio Image" />
+                    <img class="slide-img" src="{{asset('imgs/inner-banner-psd.jpg')}}" alt="Portfolio Image" />
                 </div>
                 <div class="mySlides">
-                    <img src="{{asset('imgs/inner-banner-contact.jpg')}}" alt="Portfolio Image" />
+                    <img class="slide-img" src="{{asset('imgs/inner-banner-contact.jpg')}}" alt="Portfolio Image" />
                 </div>
                 <div class="mySlides">
-                    <img src="{{asset('imgs/inner-banner-portfolio2.jpg')}}" alt="Portfolio Image" />
+                    <img class="slide-img" src="{{asset('imgs/inner-banner-portfolio2.jpg')}}" alt="Portfolio Image" />
                 </div>  
                 </br>
 

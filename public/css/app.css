@@ -659,7 +659,17 @@ a:hover {
 @media screen and (max-width: 720px) {
 	.topic-image {
 		display: none !important;
-	}
+  }
+  .thumbnail{
+    line-height: 1 !important;
+  }
+  .mySlides{
+    height:auto;
+    
+  }
+  .slide-img{
+    height: auto !important;
+  }
 }
 
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
