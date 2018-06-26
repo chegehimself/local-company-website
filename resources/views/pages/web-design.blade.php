@@ -3,12 +3,15 @@
 @section('content')
 @endsection
 
+@section('customized')
+    Blog
+@endsection
 {{-- image section --}}
 
 @section('image')
 <div class="row">
     <div class="col-md-12">
-        <div class="topic-image img-responsive thumbnail text-center">
+        <div class="img-responsive thumbnail text-center">
             <img class="slide-img" src="{{asset('imgs/inner-banner-webdesign.jpg')}}" alt="Portfolio Image" />
         </div>
     </div>    
