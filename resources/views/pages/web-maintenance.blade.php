@@ -8,7 +8,7 @@
 <div class="row">
     <div class="col-md-12">
         <div class="topic-image img-responsive thumbnail text-center">
-            <img src="{{asset('imgs/banner-web-maintenance-program.jpg')}}" alt="Portfolio Image" />
+            <img class="slide-img" src="{{asset('imgs/banner-web-maintenance-program.jpg')}}" alt="Portfolio Image" />
         </div>
     </div>    
 </div>

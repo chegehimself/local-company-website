@@ -9,7 +9,7 @@
 <div class="row">
     <div class="col-md-12">
         <div class="topic-image img-responsive thumbnail text-center">
-            <img src="{{asset('imgs/inner-banner-contact.jpg')}}" alt="contact Image" />
+            <img class="slide-img" src="{{asset('imgs/inner-banner-contact.jpg')}}" alt="contact Image" />
         </div>
     </div>    
 </div>

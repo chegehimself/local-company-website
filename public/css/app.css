@@ -18,7 +18,7 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 html {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   background: #FFFFFF !important;
@@ -384,7 +384,6 @@ li,a {
 
 #design {
   padding-top: 70px;
-  text-align: left;
 }
 
 #all-design {
@@ -704,6 +703,36 @@ a:hover {
   #images {
     padding-top: 100px !important;
   }
+}
+
+h1 {
+  color:black;
+}
+
+.text-orange {
+  color: #fdb915;
+}
+
+.nums {
+  background: white;
+  border: 8px solid #fdb915 !important;
+  border-radius: 80% ;
+  font-size: 2.0em;
+  padding: 1px 1px 1px 16px;
+  margin-right: 20px;
+}
+
+.nums1 {
+  background: white;
+  border: 3px solid #fdb915 !important;
+  border-radius: 80% ;
+  font-size: 1.0em;
+  padding:1px 4px 3px 10px;
+  margin-right: 20px;
+}
+
+.paragraph-design{
+  padding-left: 90px;
 }
 
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */

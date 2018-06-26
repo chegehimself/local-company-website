@@ -9,8 +9,8 @@
 @section('image')
 <div class="row">
     <div class="col-md-12">
-        <div class="topic-image img-responsive thumbnail text-center">
-            <img src="{{asset('imgs/inner-banner-psd.jpg')}}" alt="Portfolio Image" />
+        <div class="img-responsive thumbnail text-center">
+            <img class="slide-img" src="{{asset('imgs/inner-banner-psd.jpg')}}" alt="Portfolio Image" />
         </div>
     </div>    
 </div>
