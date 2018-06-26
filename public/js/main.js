@@ -100,7 +100,7 @@ else if(active == '/contact'){
 }
 
 
-/////////////////////////
+////////////////////////
 ///// slideshow ////////
 ////////////////////////
 var slideIndex = 1;
@@ -117,6 +117,7 @@ function currentSlide(n) {
 }
 
 function showSlides(n) {
+
   var i;
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");

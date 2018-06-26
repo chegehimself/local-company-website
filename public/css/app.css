@@ -26,6 +26,7 @@ html {
 html, body {
   max-width: 100%;
   overflow-x: hidden;
+  color: black !important;
 }
 
 /*****
@@ -264,8 +265,10 @@ form {
 .portfolio-image {
   border:1px solid #ddd !important;
   background: url(../imgs/FAM_0.png) no-repeat center;
+  background-size: cover;
   width: 260px !important;
-  margin-left:30px;
+  /* overflow-y: show; */
+  margin-left:55px;
 }
 
 .space-x{
@@ -278,8 +281,8 @@ form {
 }
 
 #portfoo {
-  padding: 32px;
-  margin-right: -12px;
+  padding: 35px;
+  margin-right: -50px;
 }
 
 /******
@@ -515,7 +518,7 @@ a:hover {
      -moz-transition-duration: .2s;
      -o-transition-duration: .2s;
      transition-duration: .2s;
-     transition-property: font-size, color, background, border, border-radius;
+     transition-property: font-size, color, border, border-radius;
   
 }
 
@@ -670,6 +673,9 @@ a:hover {
   .slide-img{
     height: auto !important;
   }
+  .row-eq-height{
+    margin-bottom: 20px !important;
+  } 
 }
 
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */

@@ -4,8 +4,8 @@
     Portfolio    
 @endsection
 
-@section('content')
-@endsection
+{{-- @section('content')
+@endsection --}}
 
 {{-- image section --}}
 
