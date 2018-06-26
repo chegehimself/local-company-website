@@ -13,7 +13,7 @@
 @section('image')
 <div class="row">
     <div class="col-md-12">
-        <div id="slideshow" class="topic-image img-responsive thumbnail text-center">
+        <div id="slideshow" class="img-responsive thumbnail text-center">
             <div class="slideshow-container">
 
                 {{-- <div class="mySlides">
