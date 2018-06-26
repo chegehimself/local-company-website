@@ -697,8 +697,12 @@ a:hover {
   .navbar-collapse{
     /* width: auto !important; */
   }
-  #portfoo{
+  /* #portfoo{
     display: none;
+  } */
+
+  #images {
+    padding-top: 100px !important;
   }
 }
 

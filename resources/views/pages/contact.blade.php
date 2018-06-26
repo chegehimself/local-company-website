@@ -4,9 +4,9 @@
     Contact Us
 @endsection
 
-@section('content')
+{{-- @section('content')
     
-@endsection
+@endsection --}}
  
 {{-- image section --}}
 
