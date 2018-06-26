@@ -644,9 +644,15 @@ a:hover {
 
  /* I hate outlines in my pages */
  * {
-	outline: none !important;
+  outline: none !important;
+  -moz-outline-style: none !important; 
 }
 
+/* dropdown focus */
+.dropdown-toggle:focus{
+  background:black !important;
+  color:white !important;
+}
 
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 
