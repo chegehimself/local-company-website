@@ -291,7 +291,7 @@ General
 }
 
 
-/* .topic-image {
+.topic-image {
   width: 100%;
   position: relative;
   padding:0 0;
@@ -300,14 +300,14 @@ General
   height: absolute;
   border: 0 !important;
   margin-bottom: -50px;
-} */
-
-.clientele-img {
-  width: 70%;
-  padding-top: 0px;
 }
 
-.clients-second-row {
+/* .clientele-img {
+  width: 30%;
+  padding-top: 0px;
+}
+ */
+.clients-second-row { 
   margin-top: 0px;
 }
 
@@ -500,6 +500,36 @@ a:hover {
   font-size: 50px;
 }
 
+.fa-book, .fa-search, .fa-envelope-open, .fa-bolt, 
+.fa-google, .fa-handshake-o, .fa-chrome, .fa-picture-o
+{
+  font-size: 50px;
+  color: #000;
+}
+
+.fa-book, .fa-search, .fa-envelope-open, .fa-bolt, 
+.fa-google, .fa-handshake-o, .fa-chrome, .fa-picture-o
+{ 
+  transition: all 0.5s ease-in-out 0s;
+  -webkit-transition-duration: .2s;
+     -moz-transition-duration: .2s;
+     -o-transition-duration: .2s;
+     transition-duration: .2s;
+     transition-property: font-size, color, background, border, border-radius;
+  
+}
+
+.fa-book:hover, .fa-search:hover, .fa-envelope-open:hover, .fa-bolt:hover, 
+.fa-google:hover, .fa-handshake-o:hover, .fa-chrome:hover, .fa-picture-o:hover
+{
+  cursor: default;
+  transform: rotate(360deg);
+  transition: all 0.5s ease-in-out 0s;
+  background:white;
+  border: 10px solid white;
+  border-radius: 80%;
+  color: #fdb915;
+}
 /* transitional property */
 .fa { 
   transition: all 0.3s ease-in-out 0s;
@@ -529,7 +559,7 @@ a:hover {
 }
 
 .dimension-clients {
-  height: 120px !important; 
+  /* height: 120px !important;  */
   width: 200px;
 }
 
@@ -538,10 +568,12 @@ a:hover {
   height: 200px !important;
 
 }
-.clients, clientele {
+
+/* only uncomment if there is a man in mars */
+/* .clients, clientele {
   margin:0 !important;
   height: 80px !important;
-}
+} */
 
 /* ionicons */
 .ion {

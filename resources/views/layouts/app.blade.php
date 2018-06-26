@@ -22,7 +22,7 @@
             @yield('image')
             <p class="text-center"><span id="end-line"></span></p>
         </div>
-        <div class="text-center">
+        <div class="text-center container">
             @yield('clients')
         </div>
         </br>

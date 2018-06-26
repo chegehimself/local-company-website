@@ -58,64 +58,64 @@
 <div class="row clients">
         <div class="col-md-2">
             <div class="topic-image img-responsive text-center">
-                <img class="clientele-img" src="{{asset('imgs/servcorp-new.png')}}" alt="Portfolio Image" />
+                <img class="clientele-img img-responsive" src="{{asset('imgs/servcorp-new.png')}}" alt="Portfolio Image" />
             </div>
         </div> 
         <div class="col-md-2">
                 <div class="topic-image img-responsive text-center">
-                    <img class="clientele-img" src="{{asset('imgs/faa-new.png')}}" alt="Portfolio Image" />
+                    <img class="clientele-img img-responsive" src="{{asset('imgs/faa-new.png')}}" alt="Portfolio Image" />
                 </div>
         </div> 
         <div class="col-md-2">
                 <div class="topic-image img-responsive text-center">
-                    <img class="clientele-img" src="{{asset('imgs/cagamas-new.png')}}" alt="Portfolio Image" />
+                    <img class="clientele-img img-responsive" src="{{asset('imgs/cagamas-new.png')}}" alt="Portfolio Image" />
                 </div>
             </div> 
             <div class="col-md-2">
                     <div class="topic-image img-responsive text-center">
-                        <img class="clientele-img" src="{{asset('imgs/ksb2-new.png')}}" alt="Portfolio Image" />
+                        <img class="clientele-img img-responsive" src="{{asset('imgs/ksb2-new.png')}}" alt="Portfolio Image" />
                     </div>
             </div> 
             <div class="col-md-2">
                     <div class="topic-image img-responsive text-center">
-                        <img class="clientele-img" src="{{asset('imgs/osk.png')}}" alt="Portfolio Image" />
+                        <img class="clientele-img img-responsive" src="{{asset('imgs/osk.png')}}" alt="Portfolio Image" />
                     </div>
                 </div> 
                 <div class="col-md-2">
                         <div class="topic-image img-responsive text-center">
-                            <img class="clientele-img" src="{{asset('imgs/landmark.png')}}" alt="Portfolio Image" />
+                            <img class="clientele-img img-responsive" src="{{asset('imgs/landmark.png')}}" alt="Portfolio Image" />
                         </div>
                 </div>          
 </div>
 <div class="row clients clients-second-row">
         <div class="col-md-2">
             <div class="topic-image img-responsive text-center">
-                <img class="clientele-img" src="{{asset('imgs/bimb-new.png')}}" alt="Portfolio Image" />
+                <img class="clientele-img img-responsive" src="{{asset('imgs/bimb-new.png')}}" alt="Portfolio Image" />
             </div>
         </div> 
         <div class="col-md-2">
                 <div class="topic-image img-responsive text-center">
-                    <img class="clientele-img" src="{{asset('imgs/bimb-new.png')}}" alt="Portfolio Image" />
+                    <img class="clientele-img img-responsive" src="{{asset('imgs/bimb-new.png')}}" alt="Portfolio Image" />
                 </div>
         </div> 
         <div class="col-md-2">
                 <div class="topic-image img-responsive text-center">
-                    <img class="clientele-img" src="{{asset('imgs/fam-new.png')}}" alt="Portfolio Image" />
+                    <img class="clientele-img img-responsive" src="{{asset('imgs/fam-new.png')}}" alt="Portfolio Image" />
                 </div>
             </div> 
             <div class="col-md-2">
                     <div class="topic-image img-responsive text-center">
-                        <img class="clientele-img" src="{{asset('imgs/kip-new.png')}}" alt="Portfolio Image" />
+                        <img class="clientele-img img-responsive" src="{{asset('imgs/kip-new.png')}}" alt="Portfolio Image" />
                     </div>
             </div> 
             <div class="col-md-2">
                     <div class="topic-image img-responsive text-center">
-                        <img class="clientele-img" src="{{asset('imgs/mceb2-new.png')}}" alt="Portfolio Image" />
+                        <img class="clientele-img img-responsive" src="{{asset('imgs/mceb2-new.png')}}" alt="Portfolio Image" />
                     </div>
                 </div> 
                 <div class="col-md-2">
                         <div class="topic-image img-responsive text-center">
-                            <img class="clientele-img" src="{{asset('imgs/mdec-new.png')}}" alt="Portfolio Image" />
+                            <img class="clientele-img img-responsive" src="{{asset('imgs/mdec-new.png')}}" alt="Portfolio Image" />
                         </div>
                 </div>          
 </div>
@@ -171,21 +171,21 @@
                         <i id="cog" class="fa fa-cart-arrow-down"></i>
                         {{-- s<ion-icon name="cart"></ion-icon> --}}
                     </div>
-                    </p>
                     <p>
                         <h1>ECOMERCE</h1>
                     </p>
                 </div>
             <div id="ecomerce">
+            <p>
                 Are you searching for the best eCommerce web design service?
                 Implement your e-commerce master plan with Orangesoft E-commerce solution and get your web-shop
                 started! Don't waste your time struggling, we are here to help you.
-            </div>
             </p>
+            </div>
+            
             <button id="read-more"  class="btn btn-primary btn-lg btn-ecomerce">READ MORE</button>
         </div>
     </div>
-
 @endsection
 
 @section('why-orange')
@@ -199,14 +199,14 @@
     </div>
     <div class="row text-center">
             <div class="col-md-3">
-                <p><i class="ion ion-briefcase"></i></p>
+                <p><i class="fa fa-book" aria-hidden="true"></i></p>
                 <p><h4> Content Management </h4></p>
                    <p> We will teach you, how to easily update your content, manage your posts, 
                    pages and categories from one central administrative area.
                 </p>
             </div>
             <div class="col-md-3">
-                    <p><i class="ion ion-briefcase"></i></p>
+                    <p><i class="fa fa-search"></i></p>
                     <p><h4> Powerful SEO </h4></p>
                 <p>
                 OrangeSoft's skillful optimization will help your business rank higher than your competitors 
@@ -214,7 +214,7 @@
                 </p>
             </div>
             <div class="col-md-3">
-                    <p><i class="ion ion-briefcase"></i></p>
+                    <p><i class="fa fa-picture-o"></i></p>
                     <p><h4> Interactive Banners</h4></p>
                 <p>
                     Easily set-up your interactive banners with your latest promotions, news, 
@@ -222,7 +222,7 @@
                 </p>
             </div>
             <div class="col-md-3">
-                    <p><i class="ion ion-briefcase"></i></p>
+                    <p><i class="fa fa-chrome"></i></p>
                     <p><h4> Responsive Web Design </h4></p>
                 <p>
                         
@@ -233,7 +233,7 @@
         </div>
         <div class="row text-center">
             <div class="col-md-3">
-                    <p><i class="ion ion-briefcase"></i></p>
+                    <p><i class="fa fa-handshake-o"></i></p>
                     <p><h4> Zero Technical Knowledge Required </h4></p>
                 <p>
                         
@@ -241,7 +241,7 @@
                 </p>
             </div>
             <div class="col-md-3">
-                    <p><i class="ion ion-briefcase"></i></p>
+                    <p><i class="fa fa-envelope-open"></i></p>
                     <p><h4> Email Newsletter System </h4></p>
                 <p>
                     
@@ -250,7 +250,7 @@
                 </p>
             </div>
             <div class="col-md-3">
-                    <p><i class="ion ion-briefcase"></i></p>
+                    <p><i class="fa fa-bolt"></i></p>
                     <p><h4> One Simple Solution for Everything </h4></p>
                 <p>
                 
@@ -259,7 +259,7 @@
                 </p>
             </div>
             <div class="col-md-3">
-                    <p><i class="ion ion-briefcase"></i></p>
+                    <p><i class="fa fa-google"></i></p>
                     <p><h4>Google Analytics</h4></p>
                 <p>
                 
