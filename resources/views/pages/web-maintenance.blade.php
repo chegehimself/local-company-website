@@ -7,7 +7,7 @@
 @section('image')
 <div class="row">
     <div class="col-md-12">
-        <div class="topic-image img-responsive thumbnail text-center">
+        <div class="img-responsive thumbnail text-center">
             <img class="slide-img" src="{{asset('imgs/banner-web-maintenance-program.jpg')}}" alt="Portfolio Image" />
         </div>
     </div>    

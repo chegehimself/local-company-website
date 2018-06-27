@@ -671,7 +671,7 @@ a:hover {
 }
 
 
-/* mobile show nice images */
+/* mobile specifications */
 @media screen and (max-width: 720px) {
 	.topic-image {
 		display: none !important;
@@ -693,6 +693,7 @@ a:hover {
   .top-nav {
     display: none;
   }
+
   .navbar-collapse{
     /* width: auto !important; */
   }
@@ -703,7 +704,15 @@ a:hover {
   #images {
     padding-top: 100px !important;
   }
+  .toggle-menu {
+    margin-top: 30px !important;
+    border-radius: 4px;
+    background-color: #FDB914;
+  }
 }
+
+/* end of mobile specification */
+
 
 h1 {
   color:black;
@@ -734,6 +743,8 @@ h1 {
 .paragraph-design{
   padding-left: 90px;
 }
+
+
 
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 

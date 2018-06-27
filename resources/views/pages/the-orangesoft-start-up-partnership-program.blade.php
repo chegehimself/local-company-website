@@ -8,7 +8,7 @@
 @section('image')
 <div class="row">
     <div class="col-md-12">
-        <div class="topic-image img-responsive thumbnail text-center">
+        <div class=" img-responsive thumbnail text-center">
             <img class="slide-img" src="{{asset('imgs/inner-banner-contact.jpg')}}" alt="contact Image" />
         </div>
     </div>    
