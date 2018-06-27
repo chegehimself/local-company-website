@@ -324,7 +324,7 @@ General
 }
  */
 .clients-second-row { 
-  margin-top: 14px;
+  margin-top: 30px;
 }
 
 .form-control {
@@ -674,7 +674,7 @@ a:hover {
 /* mobile specifications */
 @media screen and (max-width: 720px) {
 	.topic-image {
-		display: none !important;
+		/* display: none !important; */
   }
   .thumbnail{
     line-height: 1 !important;
@@ -745,6 +745,17 @@ h1 {
 }
 
 
+/* scroll clients */
+/* .scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+
+}
+.clients {
+  display: inline !important;
+} */
 
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 

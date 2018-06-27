@@ -57,65 +57,65 @@
 {{-- clients section --}}
 @section('clients')
 <div class="row clients">
-        <div class="col-md-2">
-            <div class="topic-image img-responsive text-center">
+        <div class="col-md-2 col-xs-3">
+            <div class="topic-image text-center">
                 <img class="clientele-img img-responsive" src="{{asset('imgs/servcorp-new.png')}}" alt="Portfolio Image" />
             </div>
         </div> 
-        <div class="col-md-2">
-                <div class="topic-image img-responsive text-center">
+        <div class="col-md-2 col-xs-3">
+                <div class="topic-image text-center">
                     <img class="clientele-img img-responsive" src="{{asset('imgs/faa-new.png')}}" alt="Portfolio Image" />
                 </div>
         </div> 
-        <div class="col-md-2">
-                <div class="topic-image img-responsive text-center">
+        <div class="col-md-2 col-xs-3">
+                <div class="topic-image text-center">
                     <img class="clientele-img img-responsive" src="{{asset('imgs/cagamas-new.png')}}" alt="Portfolio Image" />
                 </div>
             </div> 
-            <div class="col-md-2">
-                    <div class="topic-image img-responsive text-center">
+            <div class="col-md-2 col-xs-3">
+                    <div class="topic-image text-center">
                         <img class="clientele-img img-responsive" src="{{asset('imgs/ksb2-new.png')}}" alt="Portfolio Image" />
                     </div>
             </div> 
-            <div class="col-md-2">
-                    <div class="topic-image img-responsive text-center">
+            <div class="col-md-2 col-xs-3 ">
+                    <div class="topic-image text-center">
                         <img class="clientele-img img-responsive" src="{{asset('imgs/osk.png')}}" alt="Portfolio Image" />
                     </div>
                 </div> 
-                <div class="col-md-2">
-                        <div class="topic-image img-responsive text-center">
+                <div class="col-md-2 col-xs-3 ">
+                        <div class="topic-image text-center">
                             <img class="clientele-img img-responsive" src="{{asset('imgs/landmark.png')}}" alt="Portfolio Image" />
                         </div>
                 </div>          
 </div>
 <div class="row clients clients-second-row">
-        <div class="col-md-2">
-            <div class="topic-image img-responsive text-center">
+        <div class="col-md-2 col-xs-3">
+            <div class="topic-image text-center">
                 <img class="clientele-img img-responsive" src="{{asset('imgs/bimb-new.png')}}" alt="Portfolio Image" />
             </div>
         </div> 
-        <div class="col-md-2">
-                <div class="topic-image img-responsive text-center">
+        <div class="col-md-2 col-xs-3">
+                <div class="topic-image text-center">
                     <img class="clientele-img img-responsive" src="{{asset('imgs/bimb-new.png')}}" alt="Portfolio Image" />
                 </div>
         </div> 
-        <div class="col-md-2">
-                <div class="topic-image img-responsive text-center">
+        <div class="col-md-2 col-xs-3">
+                <div class="topic-image text-center">
                     <img class="clientele-img img-responsive" src="{{asset('imgs/fam-new.png')}}" alt="Portfolio Image" />
                 </div>
             </div> 
-            <div class="col-md-2">
-                    <div class="topic-image img-responsive text-center">
+            <div class="col-md-2 col-xs-3">
+                    <div class="topic-image text-center">
                         <img class="clientele-img img-responsive" src="{{asset('imgs/kip-new.png')}}" alt="Portfolio Image" />
                     </div>
             </div> 
-            <div class="col-md-2">
-                    <div class="topic-image img-responsive text-center">
+            <div class="col-md-2 col-xs-3">
+                    <div class="topic-image text-center">
                         <img class="clientele-img img-responsive" src="{{asset('imgs/mceb2-new.png')}}" alt="Portfolio Image" />
                     </div>
                 </div> 
-                <div class="col-md-2">
-                        <div class="topic-image img-responsive text-center">
+                <div class="col-md-2 col-xs-3">
+                        <div class="topic-image text-center">
                             <img class="clientele-img img-responsive" src="{{asset('imgs/mdec-new.png')}}" alt="Portfolio Image" />
                         </div>
                 </div>          
