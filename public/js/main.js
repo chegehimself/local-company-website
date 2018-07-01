@@ -2,18 +2,22 @@
 $(window).on('scroll', function() {
     var scrollTop = $(window).scrollTop();
 
-    if (scrollTop >= 150 && scrollTop <= 400) {
-        // $('#top-top').stop().animate({padding: "0px 0px 0px 0px"}, 800);
-        // $('#nav-log').stop().animate({height: "50px"}, 800);
-        $('#navigation-main').stop().animate({height: "30px"}, 800);
-        $('#navigation-main').stop().animate({padding: "20px 0px 0px 15px"}, 800);
-        $('#nav-log').stop().animate({padding: "15px 0px 0px 10px"}, 800);
-    } else {
-        $('#navigation-main').stop().animate({padding: "30px 0px 10px 15px"}, 800);
-        $('#nav-log').stop().animate({padding: "20px 0px 0px 10px"}, 800);
+    if (scrollTop >= 1) {
+        // $('#top-top').stop().animate({padding: "0px 0px 0px 0px"}, 100);
+        $('#top-top').animate({height: "80px"}, 0);
+        $('#navigation-main').animate({background: "transparent"}, 0);
+        // $('#navigation-main').animate({height: "30px"}, 100);
+        $('#navigation-main').animate({padding: "21px 0px 0px 15px"}, 0);
+        // $('#nav-log').animate({padding: "15px 0px 0px 10px !important"}, 100);
+        $('#nav-log').stop().animate({height: "70px"}, 0);
+    } else{
+        $('#navigation-main').animate({padding: "35px 0px 10px 15px"}, 0);
+        // $('#nav-log').animate({padding: "20px 0px 0px 10px !important"}, 0);
+        $('#nav-log').stop().animate({height: "100px"}, 0);
+        $('#navigation-main').animate({background: "transparent"}, 0);
     }
 
-
+ 
 });
 
 // alert(window.innerWidth);
