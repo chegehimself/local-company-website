@@ -24,6 +24,9 @@ html {
   background: #FFFFFF !important;
 }
 html, body {
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size:20px;
+  min-width: 320px;
   max-width: 100%;
   overflow-x: hidden;
   color: black !important;
@@ -150,6 +153,10 @@ shake button
 /**********
 typography
 **********/
+.navbar-header{
+  margin-left: -30px !important;
+  background: white;
+}
 .text-social {
   font-family:montserrat;
 }
@@ -213,10 +220,12 @@ form {
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
+  opacity: 0.3;
 }
 /* previous button to the left */
 .prev {
   left: 0;
+  opacity: 0.3;
   border-radius: 3px 0 0 3px;
 }
 
@@ -224,6 +233,7 @@ form {
 .prev:hover, .next:hover {
   background-color: #efb223;
   text-decoration: none;
+  color: white;
 }
 
 /* The dots/bullets/indicators */
@@ -700,7 +710,18 @@ a:hover {
   /* #portfoo{
     display: none;
   } */
-
+  ul#menu li {
+    display:inline;
+    padding-right: 50px;
+    font-size: 20px;
+}
+.navbar {
+  position: relative;
+  margin-left: -15px !important;
+  margin-bottom: 22px;
+  border: 1px solid transparent;
+  margin-right: -20px !important;
+}
   #images {
     padding-top: 100px !important;
   }
@@ -756,6 +777,7 @@ h1 {
 .clients {
   display: inline !important;
 } */
+
 
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 

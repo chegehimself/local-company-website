@@ -40,11 +40,11 @@ if (isMobile(window.innerWidth)) {
     //     `<a class='item' href='contact'>` + "contact" + "</a>" + "</nav>";
 
     // mainElement.insertAdjacentHTML('beforebegin', mysnippet);
-    var rem = document.getElementById("remove");
-    function removeElement(rem) {
-        var elem = rem;
-        return elem.parentNode.removeChild(elem);
-    }
+    // var rem = document.getElementById("remove");
+    // function removeElement(rem) {
+    //     var elem = rem;
+    //     return elem.parentNode.removeChild(elem);
+    // }
 
 
 }

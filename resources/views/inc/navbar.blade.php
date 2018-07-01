@@ -3,14 +3,15 @@
 <div id="fix" class="fix">
 <nav class="navbar top-nav fixedNav navbar-default">
     <div class="container">
-      <div id="navbar remove" class="collapse navbar-collapse">
+      <div id="navbar" class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
           <li><a target="_blank" href="https://www.facebook.com/orangesoft"><span class="text-social">Follow us on:</span><i class="fa facebook fa-facebook-official"></i></a></li>
           <li><a href="mailto:sale@os.my"><span class="text-social">sales@os.my</span><i class="fa envelope fa-envelope"></i></a></li>
           <li><a href="tel:+603-9054 8817"><span class="text-social">+603-9054 8817</span><i class="fa phone fa-phone"></i></a></li>
           <li><a href="/contact"><span class="text-quote text-social">Need a quote?</span><span><button class="btn shake btn-sm btn-quote" id="quote">Quote</button></span></a></li>
         </ul>
-      </div><!--/.nav-collapse -->
+      </div>
+     <!--/.nav-collapse -->
     </div>
 </nav>
 <div class="fixedNav">
@@ -31,9 +32,16 @@
                       <span class="icon-bar"></span>
                     </button>
                 </div>
+                <div id="hiding">
+                <ul id="menu">
+                    <li><a target="_blank" href="https://www.facebook.com/orangesoft"><span class="text-social"></span><i class="fa facebook fa-facebook-official"></i></a></li>
+                    <li><a href="mailto:sale@os.my"><span class="text-social"></span><i class="fa envelope fa-envelope"></i></a></li>
+                    <li><a href="tel:+603-9054 8817"><span class="text-social"></span><i class="fa phone fa-phone"></i></a></li>
+                  </ul>
+                </div>
                 <div class="navbar-collapse collapse">
                   <div class="region region-navigation-collapsible">
-                      <nav role="navigation" aria-labelledby="block-orange2016-main-menu-menu" id="block-orange2016-main-menu">
+                      <nav role="navigation" aria-labelledby="our nav" id="our nav">
                       <ul class="menu nav navbar-nav">
                         <li class="home">
                           <a href="/" >Home</a>
