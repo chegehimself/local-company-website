@@ -33,7 +33,7 @@
                     </button>
                 </div>
                 <div id="hiding">
-                <ul id="menu">
+                <ul id="menu" class="hide-me">
                     <li><a target="_blank" href="https://www.facebook.com/orangesoft"><span class="text-social"></span><i class="fa facebook fa-facebook-official"></i></a></li>
                     <li><a href="mailto:sale@os.my"><span class="text-social"></span><i class="fa envelope fa-envelope"></i></a></li>
                     <li><a href="tel:+603-9054 8817"><span class="text-social"></span><i class="fa phone fa-phone"></i></a></li>

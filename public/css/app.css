@@ -681,6 +681,12 @@ a:hover {
 }
 
 
+/* hide social */
+@media screen and (min-width: 720px) {
+.hide-me {
+  display: none;
+}
+}
 /* mobile specifications */
 @media screen and (max-width: 720px) {
 	.topic-image {
@@ -711,9 +717,10 @@ a:hover {
     display: none;
   } */
   ul#menu li {
-    display:inline;
-    padding-right: 50px;
-    font-size: 20px;
+    display: block !important;
+    display:inline !important;
+    padding-right: 50px !important;
+    font-size: 20px !important;
 }
 .navbar {
   position: relative;
