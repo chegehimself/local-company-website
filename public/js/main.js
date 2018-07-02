@@ -1,4 +1,5 @@
 // window scroll function
+if (window.innerWidth > '720'){
 $(window).on('scroll', function() {
     var scrollTop = $(window).scrollTop();
 
@@ -19,6 +20,8 @@ $(window).on('scroll', function() {
 
  
 });
+
+}
 
 // alert(window.innerWidth);
 

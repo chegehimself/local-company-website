@@ -14,6 +14,7 @@
      <!--/.nav-collapse -->
     </div>
 </nav>
+
 <div class="fixedNav">
   <div id="main-nav" class="row main-nav">
     <div id="top-top" class="col-sm-12" role="heading">
@@ -24,6 +25,7 @@
            </div>
             <div id="navigation-main" class="col-sm-9 push">
               <div class="navbar navbar-default sec-nav container" id="navbar" role="banner">
+               
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle toggle-menu menu-right push-body" data-toggle="collapse" data-target=".navbar-collapse">
                       <span class="sr-only">Toggle navigation</span>
@@ -33,12 +35,12 @@
                     </button>
                 </div>
                 <div id="hiding">
-                <ul id="menu" class="hide-me">
-                    <li><a target="_blank" href="https://www.facebook.com/orangesoft"><span class="text-social"></span><i class="fa facebook fa-facebook-official"></i></a></li>
-                    <li><a href="mailto:sale@os.my"><span class="text-social"></span><i class="fa envelope fa-envelope"></i></a></li>
-                    <li><a href="tel:+603-9054 8817"><span class="text-social"></span><i class="fa phone fa-phone"></i></a></li>
-                  </ul>
-                </div>
+                    <ul id="menu" class="hide-me">
+                        <li><a target="_blank" href="https://www.facebook.com/orangesoft"><span class="text-social"></span><i class="fa facebook fa-facebook-official"></i></a></li>
+                        <li><a href="mailto:sale@os.my"><span class="text-social"></span><i class="fa envelope fa-envelope"></i></a></li>
+                        <li><a href="tel:+603-9054 8817"><span class="text-social"></span><i class="fa phone fa-phone"></i></a></li>
+                      </ul>
+                    </div>
                 <div class="navbar-collapse collapse">
                   <div class="region region-navigation-collapsible">
                       <nav role="navigation" aria-labelledby="our nav" id="our nav">
