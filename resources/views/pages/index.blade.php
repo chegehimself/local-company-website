@@ -11,6 +11,7 @@
 {{-- image section --}}
 
 @section('image')
+<section>
 <div class="row">
     <div class="col-md-12">
         <div id="slideshow" class="img-responsive thumbnail text-center">
@@ -19,18 +20,70 @@
                 {{-- <div class="mySlides">
                     <img src="{{asset('imgs/web01.png')}}" alt="Portfolio Image" />
                 </div> --}}
-                <div class="mySlides fade">
-                    <img class="slide-img img-responsive" src="{{asset('imgs/inner-banner-joinus_0.jpg')}}" alt="Portfolio Image" />
+                <div class="mySlides">
+                    <div class="col-md-6 col-xm-6">
+                            <h5 class="animated slideInDown text-white text-left">WEB DESIGN</h5>
+                            <h2 class="animated lighSpeedIn text-white text-left">CREATE A WEB SOLUTION</h2>
+                            <h6 class="animated slideInDown text-yellow text-left">THAT MOVES PEOPLE WITH ICARUS</h6>
+                            {{-- <img id="comp-image" class="animated rollIn img-responsive" src="{{asset('imgs/slide-concept.png')}}" alt="portflio image" alt="Portfolio Image" /> --}}
+                            <h3 class="animated bounceInUp text-yellow text-left">CREATE A WEB SOLUTION WITH US</h3>
+                            <h3 class="animated slideInUp text-yellow text-left">CREATE A WEB SOLUTION WITH US</h3>
+                            <h3 class="animated tada text-yellow text-left">CREATE A WEB SOLUTION WITH US</h3>
+                            <h3 class="animated jello text-yellow text-left">CREATE A WEB SOLUTION WITH US</h3>
+        
+                            <img id="" class="animated flash img-responsive text-center" src="{{asset('imgs/flower.png')}}" alt="portflio image" alt="Portfolio Image" />
+                        </div>
+                            <img id="comp-image" class="animated slideInRight img-responsive text-right" src="{{asset('imgs/desktop_0.png')}}" alt="portflio image" alt="Portfolio Image" />
+                            {{-- <img id="comp-image" class="animated zoomInRight img-responsive text-right" src="{{ asset('imgs/slide-concept-2-5.png')}}" alt="portflio image"> --}}
+                       
                 </div>
-                <div class="mySlides fade">
-                    <img class="slide-img img-responsive" src="{{asset('imgs/inner-banner-psd.jpg')}}" alt="Portfolio Image" />
+                <div class="mySlides img-responsive">
+                    <div class="col-md-6 col-xm-6">
+                            <h4 class="animated slideInDown text-white text-left">WE CREATE</h4>
+                            <h4 class="animated slideInDown text-yellow text-left">EXPERIENCES</h4>
+                            {{-- <img id="comp-image" class="animated rollIn img-responsive" src="{{asset('imgs/slide-concept.png')}}" alt="portflio image" alt="Portfolio Image" /> --}}
+                            <h3 class="animated bounceInUp text-yellow text-left">THAT DEFINES YOUR BRAND</h3>
+                            {{-- <h3 class="animated swing text-yellow text-left">CREATE A WEB SOLUTION WITH US</h3>
+                            <h3 class="animated tada text-yellow text-left">CREATE A WEB SOLUTION WITH US</h3>
+                            <h3 class="animated jello text-yellow text-left">CREATE A WEB SOLUTION WITH US</h3> --}}
+                        </div>
+                        <div class="col-md-6">
+                            <img id="comp-image" class="animated flipInY img-responsive text-right" src="{{asset('imgs/web04.png')}}" alt="portflio image" alt="Portfolio Image" />
+                            {{-- <img id="comp-image" class="animated zoomInRight img-responsive text-right" src="{{ asset('imgs/slide-concept-2-5.png')}}" alt="portflio image"> --}}
+                        </div>
                 </div>
-                <div class="mySlides fade">
-                    <img class="slide-img img-responsive" src="{{asset('imgs/inner-banner-contact.jpg')}}" alt="Portfolio Image" />
+                <div class="mySlides">
+                    <div class="col-md-6 col-xm-6">
+                            <h5 class="animated slideInDown text-white text-left">WEB DESIGN</h5>
+                            <h2 class="animated slideInDown text-white text-left">CREATE A WEB SOLUTION</h2>
+                            <h6 class="animated slideInDown text-yellow text-left">THAT MOVES PEOPLE WITH ICARUS</h6>
+                            {{-- <img id="comp-image" class="animated rollIn img-responsive" src="{{asset('imgs/slide-concept.png')}}" alt="portflio image" alt="Portfolio Image" /> --}}
+                            <h3 class="animated swing text-yellow text-left">CREATE A WEB SOLUTION WITH US</h3>
+                            <h3 class="animated slideInRight text-yellow text-left">CREATE A WEB SOLUTION WITH US</h3>
+                            <h3 class="animated tada text-yellow text-left">CREATE A WEB SOLUTION WITH US</h3>
+                            <h3 class="animated jello text-yellow text-left">CREATE A WEB SOLUTION WITH US</h3>
+                        </div>
+                        <div class="col-md-6 col-xm-6">
+                            <img id="comp-image" class="animated rotateInDownLeft img-responsive text-right" src="{{asset('imgs/flower3.png')}}" alt="portflio image" alt="Portfolio Image" />
+                            {{-- <img id="comp-image" class="animated zoomInRight img-responsive text-right" src="{{ asset('imgs/slide-concept-2-5.png')}}" alt="portflio image"> --}}
+                        </div>
                 </div>
-                <div class="mySlides fade">
-                    <img class="slide-img img-responsive" src="{{asset('imgs/inner-banner-portfolio2.jpg')}}" alt="Portfolio Image" />
-                </div>  
+                <div class="mySlides">
+                        <div class="col-md-6 col-xm-6">
+                            <h5 class="animated slideInDown text-white text-left">WEB DESIGN</h5>
+                            <h2 class="animated slideInDown text-white text-left">CREATE A WEB SOLUTION</h2>
+                            <h6 class="animated slideInDown text-yellow text-left">THAT MOVES PEOPLE WITH ICARUS</h6>
+                            {{-- <img id="comp-image" class="animated rollIn img-responsive" src="{{asset('imgs/slide-concept.png')}}" alt="portflio image" alt="Portfolio Image" /> --}}
+                            <h3 class="animated bounceInUp text-yellow text-left">CREATE A WEB SOLUTION WITH US</h3>
+                            <h3 class="animated slideInRight text-yellow text-left">CREATE A WEB SOLUTION WITH US</h3>
+                            <h3 class="animated tada text-yellow text-left">CREATE A WEB SOLUTION WITH US</h3>
+                            <h3 class="animated jello text-yellow text-left">CREATE A WEB SOLUTION WITH US</h3>
+                        </div>
+                        <div class="col-md-6 col-xm-6">
+                            <img id="comp-image" class="animated flipInX img-responsive text-right" src="{{asset('imgs/desktop_0.png')}}" alt="portflio image" alt="Portfolio Image" />
+                            {{-- <img id="comp-image" class="animated zoomInRight img-responsive text-right" src="{{ asset('imgs/slide-concept-2-5.png')}}" alt="portflio image"> --}}
+                        </div>
+                </div>
                 </br>
 
                 <!-- Next and previous buttons -->
@@ -51,75 +104,78 @@
 </div>
 <div class="text-center">
     <h1>Our Clients<h1/>     
-</div>
+</div></section>
+
 @endsection
 
 {{-- clients section --}}
 @section('clients')
+<section>
 <div class="row clients">
-        <div class="col-md-2 col-xs-3">
+        <div class="col-md-2 col-xs-2">
             <div class="topic-image text-center">
-                <img class="clientele-img img-responsive" src="{{asset('imgs/servcorp-new.png')}}" alt="Portfolio Image" />
+                <img class="animated infinite slideInLeft clientele-img img-responsive" src="{{asset('imgs/servcorp-new.png')}}" alt="Portfolio Image" />
             </div>
         </div> 
-        <div class="col-md-2 col-xs-3">
+        <div class="col-md-2 col-xs-2">
                 <div class="topic-image text-center">
-                    <img class="clientele-img img-responsive" src="{{asset('imgs/faa-new.png')}}" alt="Portfolio Image" />
+                    <img class="animated infinite slideInLeft clientele-img img-responsive" src="{{asset('imgs/faa-new.png')}}" alt="Portfolio Image" />
                 </div>
         </div> 
-        <div class="col-md-2 col-xs-3">
+        <div class="col-md-2 col-xs-2">
                 <div class="topic-image text-center">
-                    <img class="clientele-img img-responsive" src="{{asset('imgs/cagamas-new.png')}}" alt="Portfolio Image" />
+                    <img class="animated infinite slideInLeft clientele-img img-responsive" src="{{asset('imgs/cagamas-new.png')}}" alt="Portfolio Image" />
                 </div>
             </div> 
-            <div class="col-md-2 col-xs-3">
+            <div class="col-md-2 col-xs-2">
                     <div class="topic-image text-center">
-                        <img class="clientele-img img-responsive" src="{{asset('imgs/ksb2-new.png')}}" alt="Portfolio Image" />
+                        <img class="animated infinite slideInLeft clientele-img img-responsive" src="{{asset('imgs/ksb2-new.png')}}" alt="Portfolio Image" />
                     </div>
             </div> 
-            <div class="col-md-2 col-xs-3 ">
+            <div class="col-md-2 col-xs-2 ">
                     <div class="topic-image text-center">
-                        <img class="clientele-img img-responsive" src="{{asset('imgs/osk.png')}}" alt="Portfolio Image" />
+                        <img class="animated infinite slideInLeft clientele-img img-responsive" src="{{asset('imgs/osk.png')}}" alt="Portfolio Image" />
                     </div>
                 </div> 
-                <div class="col-md-2 col-xs-3 ">
+                <div class="col-md-2 col-xs-2 ">
                         <div class="topic-image text-center">
-                            <img class="clientele-img img-responsive" src="{{asset('imgs/landmark.png')}}" alt="Portfolio Image" />
+                            <img class="animated infinite slideInLeft clientele-img img-responsive" src="{{asset('imgs/landmark.png')}}" alt="Portfolio Image" />
                         </div>
                 </div>          
 </div>
 <div class="row clients clients-second-row">
-        <div class="col-md-2 col-xs-3">
+        <div class="col-md-2 col-xs-2">
             <div class="topic-image text-center">
-                <img class="clientele-img img-responsive" src="{{asset('imgs/bimb-new.png')}}" alt="Portfolio Image" />
+                <img class="animated infinite slideInLeft clientele-img img-responsive" src="{{asset('imgs/bimb-new.png')}}" alt="Portfolio Image" />
             </div>
         </div> 
-        <div class="col-md-2 col-xs-3">
+        <div class="col-md-2 col-xs-2">
                 <div class="topic-image text-center">
-                    <img class="clientele-img img-responsive" src="{{asset('imgs/bimb-new.png')}}" alt="Portfolio Image" />
+                    <img class="animated infinite slideInLeft clientele-img img-responsive" src="{{asset('imgs/bimb-new.png')}}" alt="Portfolio Image" />
                 </div>
         </div> 
-        <div class="col-md-2 col-xs-3">
+        <div class="col-md-2 col-xs-2">
                 <div class="topic-image text-center">
-                    <img class="clientele-img img-responsive" src="{{asset('imgs/fam-new.png')}}" alt="Portfolio Image" />
+                    <img class="animated infinite slideInLeft clientele-img img-responsive" src="{{asset('imgs/fam-new.png')}}" alt="Portfolio Image" />
                 </div>
             </div> 
-            <div class="col-md-2 col-xs-3">
+            <div class="col-md-2 col-xs-2">
                     <div class="topic-image text-center">
-                        <img class="clientele-img img-responsive" src="{{asset('imgs/kip-new.png')}}" alt="Portfolio Image" />
+                        <img class="animated infinite slideInLeft clientele-img img-responsive" src="{{asset('imgs/kip-new.png')}}" alt="Portfolio Image" />
                     </div>
             </div> 
-            <div class="col-md-2 col-xs-3">
+            <div class="col-md-2 col-xs-2">
                     <div class="topic-image text-center">
-                        <img class="clientele-img img-responsive" src="{{asset('imgs/mceb2-new.png')}}" alt="Portfolio Image" />
+                        <img class="animated infinite slideInLeft clientele-img img-responsive" src="{{asset('imgs/mceb2-new.png')}}" alt="Portfolio Image" />
                     </div>
                 </div> 
-                <div class="col-md-2 col-xs-3">
+                <div class="col-md-2 col-xs-2">
                         <div class="topic-image text-center">
-                            <img class="clientele-img img-responsive" src="{{asset('imgs/mdec-new.png')}}" alt="Portfolio Image" />
+                            <img class="animated infinite slideInLeft clientele-img img-responsive" src="{{asset('imgs/mdec-new.png')}}" alt="Portfolio Image" />
                         </div>
                 </div>          
 </div>
+</section>
 @endsection
 
 @section('afterimg')

@@ -6,7 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="{{asset('css/app.css')}}" >
         <link rel="stylesheet" href="{{asset('css/normalize.css')}}" >
-        <link rel="shortcut icon" href="{{{ asset('imgs/favicon.png') }}}">
+        <link rel="shortcut icon" href="{{{ asset('imgs/icarus.ico') }}}">
+        <link rel="stylesheet" href="{{{ asset('css/animate.min.css') }}}">
         <title>{{config('app.name', 'Nice')}}: @yield('customized')</title>
         {{-- <link rel="stylesheet" href="{{asset('css/semantic.min.css')}}" > --}}
 

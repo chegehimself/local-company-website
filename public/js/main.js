@@ -169,5 +169,9 @@ function slideShow() {
     } 
     slides[slideIndex-1].style.display = "block"; 
     dots[slideIndex-1].className += " active";
-    setTimeout(slideShow, 3000); // Change image every 3 seconds
+    setTimeout(slideShow, 100005000); // Change image every 3 seconds
 }
+
+
+$('#goleft').addClass('animated rubberBand');
+$('#godown').addClass('animated bounceInDown');
