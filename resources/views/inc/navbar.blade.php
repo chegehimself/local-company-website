@@ -57,7 +57,7 @@
                         <li>
                           <a href="/web-maintenance">Web Maintenance</a>
                         </li>
-                         <li class="contact">
+                         <li>
                         <a href="/services">More Services</a>
                         </li>
                        {{--  <li>
