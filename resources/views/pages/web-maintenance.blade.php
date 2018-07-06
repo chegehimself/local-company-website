@@ -13,15 +13,15 @@
     </div>    
 </div>
 <div class="text-center">
-    <h1><strong>VIP WEB MAINTENANCE PROGRAM</strong><h1/>
+    <h1><strong>VIP WEB MAINTENANCE PROGRAM</strong></h1>
 </div>
 @endsection
 
 @section('afterimg')
 
 <div class="container">	
-<p><h4><b>Here's the secret of being successful online:</b></h4></p>
-<p><h1><b>Being updated!</b></h1></p>
+<h4><b>Here's the secret of being successful online:</b></h4>
+<h1><b>Being updated!</b></h1>
 
 <p>
 	Sadly, most Web Designers won't tell you that launching your website is just the first step in a <strong>successful online strategy</strong>.But the truth is, web technologies change almost every day, helping organisations save costs through new systems and managing their most important asset: the customer.
@@ -51,7 +51,7 @@
 
 <div class="break-down container push">
 	
-<p><h1 class="text-white">Let's break this service down for you so can see its awesome benefits:</h1></p>
+<h1 class="text-white">Let's break this service down for you so can see its awesome benefits:</h1>
 <div class="row text-white push">
 	<div class="col-md-3 col-xs-3">
 		<h1><i class="fa fa-book text-yellow"></i></h1>

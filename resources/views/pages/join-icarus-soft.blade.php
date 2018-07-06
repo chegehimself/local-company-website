@@ -20,7 +20,7 @@
 @section('why-orange')
 
 <div class="text-center">
-    <h4><strong>As a fast-growing company, we are always looking for top talent to join our team.If you would like to work in a friendly, low-stress, yet stimulating environment, we invite you to consider join Icarus.</strong><h4/>
+    <h4><strong>As a fast-growing company, we are always looking for top talent to join our team.If you would like to work in a friendly, low-stress, yet stimulating environment, we invite you to consider join Icarus.</strong></h4>
 </div>
 <div class="row work-us text-white">
 <h2 class="text-center">Why should you join us?</h2>
