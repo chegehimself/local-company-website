@@ -253,7 +253,7 @@
 @section('why-orange')
     <div id="why" class="contatiner why">
     <div class="container text-center">
-            <p><b><strong><h1>WHY ORANGESOFT?</h1></strong></b></p>
+            <p><b><strong><h1>WHY ICARUS?</h1></strong></b></p>
             <p class="text-center">
             You are looking at one of the best web design companies. Since 2007, we have created over 500 web designs for 
             companies of all sizes and industries worldwide. 
