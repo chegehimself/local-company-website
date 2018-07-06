@@ -1,8 +1,6 @@
 @extends('layouts.app')
 
-@section('customized')
-    Home
-@endsection
+@section('customized') Home @endsection
 
 @section('content')
     
@@ -89,7 +87,7 @@
                         {{-- </div> --}}
                         <img id="slide-fit" class="animated tada img-responsive text-right" src="{{asset('imgs/diagram_1.png')}}" alt="portflio image" alt="Portfolio Image" />
                 </div>
-                </br>
+                <br>
 
                 <!-- Next and previous buttons -->
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -108,7 +106,7 @@
     </div>    
 </div>
 <div class="text-center">
-    <h1>Our Clients<h1/>     
+    <h1>Our Clients</h1>     
 </div></section>
 
 @endsection
@@ -184,7 +182,8 @@
 @endsection
 
 @section('afterimg')
-    <p><strong><h1> CAN WE HELP?</h1></strong></p>
+
+        <h1><strong> CAN WE HELP? </strong></h1>
     <p>
         Web design and development are our passion and we’re eager to prove it to you. 
         Team up with us for a detailed web maintenance, creative web design or a secure
@@ -197,9 +196,7 @@
                     <p>
                         <i id="cog" class="fa fa-cog"></i>
                     </p>
-                <p>
                     <h1>WEB MAINTENANCE</h1>
-                </p>
             </div>
             <p>You’ve built and launched your website (phew!) but it’s not over yet, this is just the beginning!
                     Keeping your content and web design up-to-date is the secret to online success. Subscribe for
@@ -212,9 +209,7 @@
                 <p>
                     <i id="cog" class="fa fa-desktop"></i>
                 </p>
-                <p class="deesign">
-                    <h1>WEB DESIGN</h1>
-                </p>
+                    <h1 class="deesign">WEB DESIGN</h1>
             </div>
             <p>
                 We offer: A completely new website
@@ -233,9 +228,7 @@
                         <i id="cog" class="fa fa-cart-arrow-down"></i>
                         {{-- s<ion-icon name="cart"></ion-icon> --}}
                     </div>
-                    <p>
                         <h1>ECOMERCE</h1>
-                    </p>
                 </div>
             <div id="ecomerce">
             <p>
@@ -253,7 +246,7 @@
 @section('why-orange')
     <div id="why" class="contatiner why">
     <div class="container text-center">
-            <p><b><strong><h1>WHY ICARUS?</h1></strong></b></p>
+            <h1><strong>WHY ICARUS?</strong></h1>
             <p class="text-center">
             You are looking at one of the best web design companies. Since 2007, we have created over 500 web designs for 
             companies of all sizes and industries worldwide. 
@@ -262,14 +255,14 @@
     <div class="row text-center">
             <div class="col-md-3">
                 <p><i class="fa fa-book" aria-hidden="true"></i></p>
-                <p><h4> Content Management </h4></p>
+                <h4> Content Management </h4>
                    <p> We will teach you, how to easily update your content, manage your posts, 
                    pages and categories from one central administrative area.
                 </p>
             </div>
             <div class="col-md-3">
                     <p><i class="fa fa-search"></i></p>
-                    <p><h4> Powerful SEO </h4></p>
+                    <h4> Powerful SEO </h4>
                 <p>
                 Icarus's skillful optimization will help your business rank higher than your competitors 
                 in search engines like Google.
@@ -277,7 +270,7 @@
             </div>
             <div class="col-md-3">
                     <p><i class="fa fa-picture-o"></i></p>
-                    <p><h4> Interactive Banners</h4></p>
+                    <h4> Interactive Banners</h4>
                 <p>
                     Easily set-up your interactive banners with your latest promotions, news, 
                     and events on your home page.
@@ -285,7 +278,7 @@
             </div>
             <div class="col-md-3">
                     <p><i class="fa fa-chrome"></i></p>
-                    <p><h4> Responsive Web Design </h4></p>
+                    <h4> Responsive Web Design </h4>
                 <p>
                         
                         No matter, what device are your visitors using. With a responsive web design, 
@@ -296,7 +289,7 @@
         <div class="row text-center">
             <div class="col-md-3">
                     <p><i class="fa fa-handshake-o"></i></p>
-                    <p><h4> Zero Technical Knowledge Required </h4></p>
+                    <h4> Zero Technical Knowledge Required </h4>
                 <p>
                         
                         No software to install, no scripts to upload, no annoying plugins to work with. Our system is easy-to-use.
@@ -304,7 +297,7 @@
             </div>
             <div class="col-md-3">
                     <p><i class="fa fa-envelope-open"></i></p>
-                    <p><h4> Email Newsletter System </h4></p>
+                    <h4> Email Newsletter System </h4>
                 <p>
                     
                     Build and manage and send your emails with confidence! Our Newsletter system is social media-friendly. 
@@ -313,7 +306,7 @@
             </div>
             <div class="col-md-3">
                     <p><i class="fa fa-bolt"></i></p>
-                    <p><h4> One Simple Solution for Everything </h4></p>
+                    <h4> One Simple Solution for Everything </h4>
                 <p>
                 
                 With Icarus, you have control over everything with one simple centralized location. Saves you both 
@@ -322,7 +315,7 @@
             </div>
             <div class="col-md-3">
                     <p><i class="fa fa-google"></i></p>
-                    <p><h4>Google Analytics</h4></p>
+                    <h4>Google Analytics</h4>
                 <p>
                 
                     Track your visitors’ behavior, demographic, interests and get useful reports on all your website traffic. 
