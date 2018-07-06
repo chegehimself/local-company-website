@@ -25,7 +25,8 @@
 
 {{-- contact form --}}
 @section('contact')
-<form>
+<div id="contact">
+<form class="container">
 <div class="row">
     <div class="col-md-6">
         <div class="form-group">
@@ -37,7 +38,7 @@
                 <input class="form-control" type="text" name="compay" id="company">
             </div>
             <div class="form-group">
-                    <label for="email">email</label>
+                    <label for="email">email*</label>
                     <input class="form-control" type="text" name="email" id="email">
             </div>
             <div class="form-group">
@@ -55,7 +56,7 @@
                     <input class="form-control" type="text" name="budget" id="budjet">
             </div>
             <div class="form-group">
-                     <label for="description">Description</label>
+                     <label for="description">Description*</label>
                     <textarea class="form-control" name="description" id="description" cols="30" rows="10"></textarea>
             </div>
     </div>
@@ -65,4 +66,5 @@
     </div>  
 
 </form>
+</div>
 @endsection

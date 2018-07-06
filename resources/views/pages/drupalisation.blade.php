@@ -21,7 +21,7 @@
 
 @section('blogs')
 <div id="drupal">
-<p>PSD/HTML to Drupal conversions and Orangesoft complements each other, like bread and butter. We only do one thing, and that's building Drupal websites.
+<p>PSD/HTML to Drupal conversions and Icarus complements each other, like bread and butter. We only do one thing, and that's building Drupal websites.
 And, we do it brilliantly good. Our experienced Drupal specialists has worked extensively with Drupal and provided Drupal as the smartest solution to all our clients.
 
 So when it comes to getting your design into perfect conversion, we got you covered. Ten of thousands of smart people and intelligent organizations are using Drupal to power scores different web sites including community web portal, corporate web sites, social networking sites, personal web sites or blogs.

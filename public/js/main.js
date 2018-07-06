@@ -163,13 +163,14 @@ function slideShow() {
     for (i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace(" active", "");
     }
-    slideIndex++;
+    slideIndex++; 
     if (slideIndex > slides.length) {
         slideIndex = 1
     } 
     slides[slideIndex-1].style.display = "block"; 
     dots[slideIndex-1].className += " active";
-    setTimeout(slideShow, 100005000); // Change image every 3 seconds
+    // setTimeout(slideShow, 39000000); // Change image every 3 seconds [3billion has some magic]
+    setTimeout(slideShow, 5000); // Change image every 3 seconds
 }
 
 

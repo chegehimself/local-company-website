@@ -20,69 +20,74 @@
                 {{-- <div class="mySlides">
                     <img src="{{asset('imgs/web01.png')}}" alt="Portfolio Image" />
                 </div> --}}
+                {{-- slide1 --}}
                 <div class="mySlides">
-                    <div class="col-md-6 col-xm-6">
-                            <h5 class="animated slideInDown text-white text-left">WEB DESIGN</h5>
-                            <h2 class="animated lighSpeedIn text-white text-left">CREATE A WEB SOLUTION</h2>
-                            <h6 class="animated slideInDown text-yellow text-left">THAT MOVES PEOPLE WITH ICARUS</h6>
-                            {{-- <img id="comp-image" class="animated rollIn img-responsive" src="{{asset('imgs/slide-concept.png')}}" alt="portflio image" alt="Portfolio Image" /> --}}
-                            <h3 class="animated bounceInUp text-yellow text-left">CREATE A WEB SOLUTION WITH US</h3>
-                            <h3 class="animated slideInUp text-yellow text-left">CREATE A WEB SOLUTION WITH US</h3>
-                            <h3 class="animated tada text-yellow text-left">CREATE A WEB SOLUTION WITH US</h3>
-                            <h3 class="animated jello text-yellow text-left">CREATE A WEB SOLUTION WITH US</h3>
+                    <div class="col-md-6 col-xs-6 img-responsive">
+                            <p id="slide-text" class="animated fadeInLeft text-white text-center">UNLOCK THE SECRET</p>
+                            <p id="slide-text" class="animated lightSpeedIn text-white text-center">CREATE A WEB SOLUTION</p>
+                            <p id="slide-text" class="animated slideInDown text-yellow text-center">THAT MOVES PEOPLE</p>
+                            {{-- <img id="slide-fit" class="animated rollIn img-responsive" src="{{asset('imgs/slide-concept.png')}}" alt="portflio image" alt="Portfolio Image" /> --}}
         
-                            <img id="" class="animated flash img-responsive text-center" src="{{asset('imgs/flower.png')}}" alt="portflio image" alt="Portfolio Image" />
+                            <img id="some-flower" class="animated flash img-responsive text-center" src="{{asset('imgs/flower.png')}}" alt="portflio image" alt="Portfolio Image" />
+                    </div>
+                    <div class="col-sm-6 col-xs-6">
+                            
+                        <img id="slide-fit" class="animated slideInRight img-responsive text-right" src="{{asset('imgs/desktop_0.png')}}" alt="portflio image" alt="Portfolio Image" />
+                        {{-- </div> --}}
+                        {{-- <div class="col-sm-6" id="slide-concept-1"> --}}
+                        {{-- <img id="slide-concept-1" class="animated zoomInUp img-responsive text-right" src="{{ asset('imgs/slide-concept-2-5.png')}}" alt="portflio image"> --}}
+                            {{-- <img id="slide-concept-3" class="animated zoomInUp img-responsive text-right" src="{{ asset('imgs/web02_1.png')}}" alt="portflio image"> --}}
+                            {{-- <img id="slide-concept-2" class="animated zoomInUp img-responsive text-right" src="{{ asset('imgs/web01.png')}}" alt="portflio image"> --}}
+                            {{-- <img id="slide-concept-4" class="animated zoomInUp img-responsive text-right" src="{{ asset('imgs/web03_0.png')}}" alt="portflio image"> --}}
+                            {{-- <img id="slide-concept-5" class="animated zoomInUp img-responsive text-right" src="{{ asset('imgs/web04.png')}}" alt="portflio image"> --}}
+                            
                         </div>
-                            <img id="comp-image" class="animated slideInRight img-responsive text-right" src="{{asset('imgs/desktop_0.png')}}" alt="portflio image" alt="Portfolio Image" />
-                            {{-- <img id="comp-image" class="animated zoomInRight img-responsive text-right" src="{{ asset('imgs/slide-concept-2-5.png')}}" alt="portflio image"> --}}
                        
                 </div>
+                {{-- slide2 --}}
                 <div class="mySlides img-responsive">
-                    <div class="col-md-6 col-xm-6">
-                            <h4 class="animated slideInDown text-white text-left">WE CREATE</h4>
-                            <h4 class="animated slideInDown text-yellow text-left">EXPERIENCES</h4>
-                            {{-- <img id="comp-image" class="animated rollIn img-responsive" src="{{asset('imgs/slide-concept.png')}}" alt="portflio image" alt="Portfolio Image" /> --}}
-                            <h3 class="animated bounceInUp text-yellow text-left">THAT DEFINES YOUR BRAND</h3>
+                    <div class="col-md-6 col-xs-6 img-responsive">
+                            <p id="slide-text" class="animated lightSpeedIn text-white text-left">WE CREATE</p>
+                            <p id="slide-text" class="animated slideInDown text-yellow text-left">EXPERIENCES THAT DEFINES</p>
+                            {{-- <img id="slide-fit" class="animated rollIn img-responsive" src="{{asset('imgs/slide-concept.png')}}" alt="portflio image" alt="Portfolio Image" /> --}}
+                            <p id="slide-text" class="animated bounceInUp text-yellow text-left">YOUR BRAND</p>
                             {{-- <h3 class="animated swing text-yellow text-left">CREATE A WEB SOLUTION WITH US</h3>
                             <h3 class="animated tada text-yellow text-left">CREATE A WEB SOLUTION WITH US</h3>
                             <h3 class="animated jello text-yellow text-left">CREATE A WEB SOLUTION WITH US</h3> --}}
+                            <img id="some-f" class="animated rotateIn img-responsive text-center" src="{{asset('imgs/flower3.png')}}" alt="portflio image" alt="Portfolio Image" />
                         </div>
-                        <div class="col-md-6">
-                            <img id="comp-image" class="animated flipInY img-responsive text-right" src="{{asset('imgs/web04.png')}}" alt="portflio image" alt="Portfolio Image" />
-                            {{-- <img id="comp-image" class="animated zoomInRight img-responsive text-right" src="{{ asset('imgs/slide-concept-2-5.png')}}" alt="portflio image"> --}}
+                        <div class="col-md-6 col-xm-6">
+                            <img id="slide-fit" class="animated flipInY img-responsive text-right" src="{{asset('imgs/web04.png')}}" alt="portflio image" alt="Portfolio Image" />
+                            {{-- <img id="slide-fit" class="animated zoomInRight img-responsive text-right" src="{{ asset('imgs/slide-concept-2-5.png')}}" alt="portflio image"> --}}
                         </div>
                 </div>
+                {{-- slide3 --}}
+{{--                 <div class="mySlides">
+                    <div class="col-md-6 col-xs-6">
+                            <p id="slide-text" class="animated slideInDown text-white text-left">WE CREATE</p>
+                            <p id="slide-text" class="animated slideInDown text-white text-left">EXPERIENCIES</p>
+                            <p id="slide-text" class="animated lightSpeedIn text-yellow text-left">THAT DEFINES YOUR BRAND</p>
+                            <img id="slide-fit" class="animated rollIn img-responsive" src="{{asset('imgs/slide-concept.png')}}" alt="portflio image" alt="Portfolio Image" />
+                    </div>
+                    <div class="col-md-6 col-xs-6">
+                        <img id="slide-fit" class="animated jello img-responsive text-right" src="{{asset('imgs/display-1.png')}}" alt="portflio image" alt="Portfolio Image" />
+                        <img id="slide-fit" class="animated zoomInRight img-responsive text-right" src="{{ asset('imgs/slide-concept-2-5.png')}}" alt="portflio image">
+                    </div>
+                </div> --}}
+
+                {{-- slide4 --}}
                 <div class="mySlides">
-                    <div class="col-md-6 col-xm-6">
-                            <h5 class="animated slideInDown text-white text-left">WEB DESIGN</h5>
-                            <h2 class="animated slideInDown text-white text-left">CREATE A WEB SOLUTION</h2>
-                            <h6 class="animated slideInDown text-yellow text-left">THAT MOVES PEOPLE WITH ICARUS</h6>
-                            {{-- <img id="comp-image" class="animated rollIn img-responsive" src="{{asset('imgs/slide-concept.png')}}" alt="portflio image" alt="Portfolio Image" /> --}}
-                            <h3 class="animated swing text-yellow text-left">CREATE A WEB SOLUTION WITH US</h3>
-                            <h3 class="animated slideInRight text-yellow text-left">CREATE A WEB SOLUTION WITH US</h3>
-                            <h3 class="animated tada text-yellow text-left">CREATE A WEB SOLUTION WITH US</h3>
-                            <h3 class="animated jello text-yellow text-left">CREATE A WEB SOLUTION WITH US</h3>
-                        </div>
-                        <div class="col-md-6 col-xm-6">
-                            <img id="comp-image" class="animated rotateInDownLeft img-responsive text-right" src="{{asset('imgs/flower3.png')}}" alt="portflio image" alt="Portfolio Image" />
-                            {{-- <img id="comp-image" class="animated zoomInRight img-responsive text-right" src="{{ asset('imgs/slide-concept-2-5.png')}}" alt="portflio image"> --}}
-                        </div>
-                </div>
-                <div class="mySlides">
-                        <div class="col-md-6 col-xm-6">
-                            <h5 class="animated slideInDown text-white text-left">WEB DESIGN</h5>
-                            <h2 class="animated slideInDown text-white text-left">CREATE A WEB SOLUTION</h2>
-                            <h6 class="animated slideInDown text-yellow text-left">THAT MOVES PEOPLE WITH ICARUS</h6>
-                            {{-- <img id="comp-image" class="animated rollIn img-responsive" src="{{asset('imgs/slide-concept.png')}}" alt="portflio image" alt="Portfolio Image" /> --}}
-                            <h3 class="animated bounceInUp text-yellow text-left">CREATE A WEB SOLUTION WITH US</h3>
-                            <h3 class="animated slideInRight text-yellow text-left">CREATE A WEB SOLUTION WITH US</h3>
-                            <h3 class="animated tada text-yellow text-left">CREATE A WEB SOLUTION WITH US</h3>
-                            <h3 class="animated jello text-yellow text-left">CREATE A WEB SOLUTION WITH US</h3>
-                        </div>
-                        <div class="col-md-6 col-xm-6">
-                            <img id="comp-image" class="animated flipInX img-responsive text-right" src="{{asset('imgs/desktop_0.png')}}" alt="portflio image" alt="Portfolio Image" />
-                            {{-- <img id="comp-image" class="animated zoomInRight img-responsive text-right" src="{{ asset('imgs/slide-concept-2-5.png')}}" alt="portflio image"> --}}
-                        </div>
+{{--                         <div class="col-md-6 col-xs-6">
+                            <p id="slide-text" class="animated slideInDown text-white text-left">TURNING YOUR WEBSITE</p>
+                            <p id="slide-text" class="animated lightSpeedIn text-white text-left">FROM COST CENTER</p>
+                            <p id="slide-text" class="animated slideInDown text-yellow text-left">TO PROFIT CENTER</p> --}}
+                            {{-- <img id="slide-fit" class="animated rollIn img-responsive" src="{{asset('imgs/slide-concept.png')}}" alt="portflio image" alt="Portfolio Image" /> --}}
+                        {{-- </div> --}}
+                    {{--     <div class="col-md-6 col-xs-6">
+                            <img id="slide-fit" class="animated flipInY img-responsive text-right" src="{{asset('imgs/6_0.png')}}" alt="portflio image" alt="Portfolio Image" /> --}}
+                            {{-- <img id="slide-fit" class="animated zoomInRight img-responsive text-right" src="{{ asset('imgs/slide-concept-2-5.png')}}" alt="portflio image"> --}}
+                        {{-- </div> --}}
+                        <img id="slide-fit" class="animated tada img-responsive text-right" src="{{asset('imgs/diagram_1.png')}}" alt="portflio image" alt="Portfolio Image" />
                 </div>
                 </br>
 
@@ -95,7 +100,7 @@
                     <span class="dot" onclick="currentSlide(1)"></span> 
                     <span class="dot" onclick="currentSlide(2)"></span> 
                     <span class="dot" onclick="currentSlide(3)"></span>
-                    <span class="dot" onclick="currentSlide(4)"></span> 
+                    {{-- <span class="dot" onclick="currentSlide(4)"></span>  --}}
                 </div>
                 
             </div>
@@ -200,7 +205,7 @@
                     Keeping your content and web design up-to-date is the secret to online success. Subscribe for
                      our maintenance plan and let professionals take care of that.
             </p>
-            <button id="read-more" class="btn btn-primary btn-lg btn-maintenance">READ MORE</button>
+            <a href="/web-maintenance"><button id="read-more" class="btn btn-primary btn-lg btn-maintenance">READ MORE</button></a>
         </div>
         <div class="col-md-4 row-eq-height">
             <div id="marketing-header-1" class="m-header">
@@ -220,7 +225,7 @@
                     immediately just because your website is not user-friendly. In Orangesoft, we deliver 100% 
                     responsive web design.
             </p>
-            <button id="read-more"  class="btn btn-primary btn-lg btn-design">READ MORE</button>
+            <a href="/web-design"><button id="read-more"  class="btn btn-primary btn-lg btn-design">READ MORE</button></a>
         </div>
         <div class="col-md-4 row-eq-height">
                 <div id="marketing-header-2" class="m-header">
@@ -235,7 +240,7 @@
             <div id="ecomerce">
             <p>
                 Are you searching for the best eCommerce web design service?
-                Implement your e-commerce master plan with Orangesoft E-commerce solution and get your web-shop
+                Implement your e-commerce master plan with Icarus E-commerce solution and get your web-shop
                 started! Don't waste your time struggling, we are here to help you.
             </p>
             </div>

@@ -37,3 +37,5 @@ Route::get('/blog', 'PagesController@blog');
 
 Route::get('/contact', 'PagesController@contact');
 
+Route::get('/services', 'PagesController@services');
+

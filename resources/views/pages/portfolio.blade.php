@@ -26,7 +26,7 @@
 
 <div class="row">
         <a href="http://www.assetafrica.co.ke/" target="_blank">
-        <div class="col-md-3 thumbnail img-responsive portfolio-image1">
+        <div class="col-md-3 col-xs-3 thumbnail img-responsive portfolio-image1">
             <div class="space-x">
 
             </div>
@@ -34,7 +34,7 @@
         </div>
     </a>
     <a href="#" target="_blank">
-        <div class="col-md-3 thumbnail img-responsive portfolio-image2">
+        <div class="col-md-3 col-xs-3 thumbnail img-responsive portfolio-image2">
                 <div class="space-x">
 
                     </div>
@@ -42,7 +42,7 @@
         </div>
     </a>
     <a href="#" target="_blank">
-        <div class="col-md-3 thumbnail img-responsive portfolio-image3">
+        <div class="col-md-3 col-xs-3 thumbnail img-responsive portfolio-image3">
                 <div class="space-x">
 
                     </div>
@@ -50,7 +50,7 @@
         </div>
     </a>
     <a href="#" target="_blank">
-        <div class="col-md-3 thumbnail img-responsive portfolio-image4">
+        <div class="col-md-3 col-xs-3 thumbnail img-responsive portfolio-image4">
                 <div class="space-x">
 
                     </div>
@@ -60,14 +60,14 @@
     </div>
     <div class="row">
         <a href="#" target="_blank">
-        <div class="col-md-3 thumbnail img-responsive portfolio-image5">
+        <div class="col-md-3 col-xs-3 thumbnail img-responsive portfolio-image5">
                 <div class="space-x">
-                    </div>
-                    <div id="port-text" class="text-left"><p><span>interpolitan</span></p></div>
+                </div>
+                <div id="port-text" class="text-left"><p><span>interpolitan</span></p></div>
         </div>
         </a>
         <a href="#" target="_blank">
-        <div class="col-md-3 thumbnail img-responsive portfolio-image6">
+        <div class="col-md-3 col-xs-3 thumbnail img-responsive portfolio-image6">
                 <div class="space-x">
 
                     </div>
@@ -75,7 +75,7 @@
         </div>
         </a>
         <a href="#" target="_blank">
-        <div class="col-md-3 thumbnail img-responsive portfolio-image7">
+        <div class="col-md-3 col-xs-3 thumbnail img-responsive portfolio-image7">
                 <div class="space-x">
 
                     </div>
@@ -83,7 +83,7 @@
         </div>
         </a>
         <a href="#" target="_blank">
-        <div class="col-md-3 thumbnail img-responsive portfolio-image8">
+        <div class="col-md-3 col-xs-3 thumbnail img-responsive portfolio-image8">
                 <div class="space-x">
 
                     </div>
@@ -95,7 +95,7 @@
 
 <div class="row">
         <a href="#" target="_blank">
-        <div class="col-md-3 thumbnail img-responsive portfolio-image9">
+        <div class="col-md-3 col-xs-3 thumbnail img-responsive portfolio-image9">
             <div class="space-x">
 
             </div>
@@ -103,7 +103,7 @@
         </div>
     </a>
     <a href="#" target="_blank">
-        <div class="col-md-3 thumbnail img-responsive portfolio-image10">
+        <div class="col-md-3 col-xs-3 thumbnail img-responsive portfolio-image10">
                 <div class="space-x">
 
                     </div>
@@ -111,7 +111,7 @@
         </div>
     </a>
     <a href="#" target="_blank">
-        <div class="col-md-3 thumbnail img-responsive portfolio-image11">
+        <div class="col-md-3 col-xs-3 thumbnail img-responsive portfolio-image11">
                 <div class="space-x">
 
                     </div>
@@ -119,7 +119,7 @@
         </div>
     </a>
     <a href="#" target="_blank">
-        <div class="col-md-3 thumbnail img-responsive portfolio-image12">
+        <div class="col-md-3 col-xs-3 thumbnail img-responsive portfolio-image12">
                 <div class="space-x">
 
                     </div>
@@ -127,7 +127,9 @@
         </div>
     </a>
     </div>
-    <div class="row">
+
+    {{-- last row --}}
+    {{-- <div class="row">
         <a href="#" target="_blank">
         <div class="col-md-3 thumbnail img-responsive portfolio-image13">
                 <div class="space-x">
@@ -159,5 +161,5 @@
                     <div id="port-text" class="text-left"><p><span>Malysia Major Events</span></p></div>
             </div>
         </div>
-    </a>
+    </a> --}}
 @endsection
