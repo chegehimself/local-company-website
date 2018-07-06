@@ -521,7 +521,7 @@ form {
 .portfolio-image11:hover,.portfolio-image12:hover,.portfolio-image13:hover,.portfolio-image14:hover,.portfolio-image15:hover,
 .portfolio-image16:hover{
 	background-position: bottom center!important;
-	transition: background-position 5s linear 0s;
+	transition: background-position 3s linear 0s;
 }
 
 .space-x{
