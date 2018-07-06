@@ -40,13 +40,13 @@ class PagesController extends Controller
         return view('pages.partner');
     }
 
-    public function orangesoftpartnership(){
-        return view('pages.the-orangesoft-start-up-partnership-program');
+    public function icaruspartnership(){
+        return view('pages.the-icarus-start-up-partnership-program');
     }
 
 
-    public function joinorangesoft(){
-        return view('pages.join-orange-soft');
+    public function joinicarus(){
+        return view('pages.join-icarus-soft');
     }
 
 
@@ -65,7 +65,7 @@ class PagesController extends Controller
         return view('pages.contact');
     }
 
-    // contact
+    // services
     public function services(){
         return view('pages.services');
     }

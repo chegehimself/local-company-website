@@ -5,7 +5,7 @@
     <div class="container">
       <div id="navbar" class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
-          <li><a target="_blank" href="https://www.facebook.com/orangesoft"><span class="text-social">Follow us on:</span><i class="fa facebook fa-facebook-official"></i></a></li>
+          <li><a target="_blank" href="https://www.facebook.com/icarus"><span class="text-social">Follow us on:</span><i class="fa facebook fa-facebook-official"></i></a></li>
           <li><a href="mailto:halo@icarus.co.ke"><span class="text-social">halo@icarus.co.ke</span><i class="fa envelope fa-envelope"></i></a></li>
           <li><a href="tel: +254775077077"><span class="text-social"> +254775077077</span><i class="fa phone fa-phone"></i></a></li>
           <li><a href="/contact"><span class="text-quote text-social">Interested in our Pricing?</span><span><button class="btn shaking-btn btn-sm btn-quote text-white" id="quote">Free Quote</button></span></a></li>
@@ -36,7 +36,7 @@
                 </div>
                 <div id="hiding">
                     <ul id="menu" class="hide-me">
-                        <li><a target="_blank" href="https://www.facebook.com/orangesoft"><span class="text-social"></span><i class="fa facebook fa-facebook-official"></i></a></li>
+                        <li><a target="_blank" href="https://www.facebook.com/icarus"><span class="text-social"></span><i class="fa facebook fa-facebook-official"></i></a></li>
                         <li><a href="mailto:sale@os.my"><span class="text-social"></span><i class="fa envelope fa-envelope"></i></a></li>
                         <li><a href="tel:+603-9054 8817"><span class="text-social"></span><i class="fa phone fa-phone"></i></a></li>
                       </ul>
@@ -81,10 +81,10 @@
                         {{--<a href="/partner">Partner Programme</a>
                         </li>
                         <li>
-                          <a href="/the-orangesoft-start-up-partnership-program">Start-up Partnership Program</a>
+                          <a href="/the-icarus-start-up-partnership-program">Start-up Partnership Program</a>
                         </li>
                         <li> --}}
-                          <a href="/join-orangesoft">Join Us</a>
+                          <a href="/join-icarus">Join Us</a>
                         </li>
                         </ul>
                         </li>

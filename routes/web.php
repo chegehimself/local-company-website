@@ -29,9 +29,9 @@ Route::get('/real-estate-web-marketing-system', 'PagesController@realestate');
 
 Route::get('/partner', 'PagesController@partner');
 
-Route::get('/the-orangesoft-start-up-partnership-program', 'PagesController@orangesoftpartnership');
+Route::get('/the-icarus-start-up-partnership-program', 'PagesController@icaruspartnership');
 
-Route::get('/join-orangesoft', 'PagesController@joinorangesoft');
+Route::get('/join-icarus', 'PagesController@joinicarus');
 
 Route::get('/blog', 'PagesController@blog');
 
