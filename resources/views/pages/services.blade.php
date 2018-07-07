@@ -35,7 +35,7 @@
         </p>
     </div>
     <div class="col-md-5">
-        <img class="img-responsive" src="{{asset('imgs/webdesign01-new.gif')}}" alt="image for malysia">
+        <img class="img-responsive" src="{{asset('imgs/webdesign01-new.gif')}}" alt="image for web design">
     </div>
 </div>
 
@@ -48,7 +48,7 @@
     </p>
     </div>
     <div class="col-md-5">
-        <img class="img-responsive" src="{{asset('imgs/webdesign02.gif')}}" alt="image for malysia">
+        <img class="img-responsive" src="{{asset('imgs/webdesign02.gif')}}" alt="image for web design">
     </div>
 </div>
 
@@ -62,7 +62,7 @@
         </p>
     </div>
     <div class="col-md-5">
-        <img class="img-responsive" src="{{asset('imgs/webdesign03.gif')}}" alt="image for malysia">
+        <img class="img-responsive" src="{{asset('imgs/webdesign03.gif')}}" alt="image for design">
     </div>
 </div>
 
@@ -75,7 +75,7 @@
         </p>
     </div>
     <div class="col-md-5">
-        <img class="img-responsive" src="{{asset('imgs/webdesign04.gif')}}" alt="image for malysia">
+        <img class="img-responsive" src="{{asset('imgs/webdesign04.gif')}}" alt="image for design">
     </div>
 </div>
 
@@ -89,7 +89,7 @@
         </p>
     </div>
     <div class="col-md-5">
-        <img class="img-responsive" src="{{asset('imgs/webdesign05_0.gif')}}" alt="image for malysia">
+        <img class="img-responsive" src="{{asset('imgs/webdesign05_0.gif')}}" alt="image for design">
     </div>
 </div>
 
@@ -103,7 +103,7 @@
         </p>
     </div>
     <div class="col-md-5">
-        <img class="img-responsive" src="{{asset('imgs/webdesign06_1.gif')}}" alt="image for malysia">
+        <img class="img-responsive" src="{{asset('imgs/webdesign06_1.gif')}}" alt="image for design">
     </div>
 </div>
 
@@ -117,7 +117,7 @@
         </p>
     </div>
     <div class="col-md-5">
-        <img class="img-responsive" src="{{asset('imgs/webdesign07_0.gif')}}" alt="image for malysia">
+        <img class="img-responsive" src="{{asset('imgs/webdesign07_0.gif')}}" alt="image for design">
     </div>
 </div>
 
@@ -131,7 +131,7 @@
         </p>
     </div>
     <div class="col-md-5">
-        <img class="img-responsive" src="{{asset('imgs/webdesign08.gif')}}" alt="image for malysia">
+        <img class="img-responsive" src="{{asset('imgs/webdesign08.gif')}}" alt="image for design">
     </div>
 </div>
 
