@@ -79,7 +79,7 @@ That's why you need a professional partner for your website, someone with a prov
 
                     It means your Website can grow with your organisation, without the need to rebuild it each time your organisation grows and evolves.
 
-                    To put it simply, Orangesoft is staffed with an elite group of experts and specialists equipped to do medium and big projects, that's why we are your best choice to fulfill both your present and future business needs.
+                    To put it simply, Icarus is staffed with an elite group of experts and specialists equipped to do medium and big projects, that's why we are your best choice to fulfill both your present and future business needs.
                </p>
         </div>
         <div class="col-md-6 container text-center">
@@ -92,7 +92,7 @@ That's why you need a professional partner for your website, someone with a prov
                         E-catalog
                         E-commerce
                         Web marketing (Search engine optimization, search engine marketing, social media marketing, etc.)
-                        Orangesoft simply transforms your Website from a cost centre into a profit centre. A profit centre that supports the pursuit of your business's objectives.
+                        Icarus simply transforms your Website from a cost centre into a profit centre. A profit centre that supports the pursuit of your business's objectives.
 
                         You can start profiting from your website and make it pay for itself, or you can waste time, money and get frustrated.
 
