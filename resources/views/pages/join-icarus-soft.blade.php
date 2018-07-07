@@ -45,7 +45,7 @@
 
 <div class="col-md-6 col-xs-6 container text-left">
 	<p>
-		Finally, here's the best part, imagine working with some of Malaysia's leading corporations, government agencies and SMEs. As a team member of Icarus, you'll finally get a chance to work with some of the most prestigious organisations in Malaysia.
+		Finally, here's the best part, imagine working with some of Kenyas's leading corporations, government agencies and SMEs. As a team member of Icarus, you'll finally get a chance to work with some of the most prestigious organisations in Malaysia.
 	</p>
 	<p>
 		Our development office is located in College House, Nairobi, Kenya which is easily accessible.
