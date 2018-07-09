@@ -19,7 +19,7 @@
                     <img src="{{asset('imgs/web01.png')}}" alt="Portfolio Image" />
                 </div> --}}
                 {{-- slide1 --}}
-                <div class="mySlides fademe slideshow-1">
+                <div class="mySlides fade slideshow-1">
                 <div class="row">
                     <div class="col-md-6 col-xs-6 img-responsive">
                             <p id="slide-text" class="animated fadeInLeft text-white text-center">UNLOCK THE SECRET</p>
@@ -46,7 +46,7 @@
                 </div>
             </div>
                 {{-- slide2 --}}
-                <div class="mySlides fademe slideshow-2 img-responsive">
+                <div class="mySlides fade slideshow-2 img-responsive">
                 <div class="row">
                     <div class="col-md-6 col-xs-6 img-responsive">
                             <p id="slide-text" class="animated lightSpeedIn text-white text-center">WE CREATE</p>
@@ -80,7 +80,7 @@
                 </div> --}}
 
                 {{-- slide4 --}}
-                <div class="mySlides fademe slideshow-3">
+                <div class="mySlides fade slideshow-3">
 {{--                         <div class="col-md-6 col-xs-6">
                             <p id="slide-text" class="animated slideInDown text-white text-left">TURNING YOUR WEBSITE</p>
                             <p id="slide-text" class="animated lightSpeedIn text-white text-left">FROM COST CENTER</p>
