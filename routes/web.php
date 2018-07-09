@@ -39,3 +39,4 @@ Route::get('/contact', 'PagesController@contact');
 
 Route::get('/services', 'PagesController@services');
 
+Route::get('/products', 'PagesController@products');

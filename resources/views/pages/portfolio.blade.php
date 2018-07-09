@@ -89,17 +89,18 @@
             </div>
             <div id="port-text" class="text-left"><p><span>roh</span></p></div>
         </div>
-    </a>
+        </a>
+    </div>
 {{-- bublicate --}}
 
 <div class="row">
-        <a href="#" target="_blank">
-        <div class="col-md-3 col-xs-3 thumbnail img-responsive portfolio-image9">
-            <div class="space-x">
+    <a href="#" target="_blank">
+    <div class="col-md-3 col-xs-3 thumbnail img-responsive portfolio-image9">
+        <div class="space-x">
 
-            </div>
-            <div id="port-text" class="text-left"><p><span>sabvil</span></p></div>
         </div>
+        <div id="port-text" class="text-left"><p><span>sabvil</span></p></div>
+    </div>
     </a>
     <a href="#" target="_blank">
         <div class="col-md-3 col-xs-3 thumbnail img-responsive portfolio-image10">

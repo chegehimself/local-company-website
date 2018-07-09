@@ -12,17 +12,18 @@
 <section>
 <div class="row">
     <div class="col-md-12">
-        <div id="slideshow" class="img-responsive thumbnail text-center">
+        <div id="slideshow" class="img-responsive text-center">
             <div class="slideshow-container">
 
                 {{-- <div class="mySlides">
                     <img src="{{asset('imgs/web01.png')}}" alt="Portfolio Image" />
                 </div> --}}
                 {{-- slide1 --}}
-                <div class="mySlides">
+                <div class="mySlides fademe slideshow-1">
+                <div class="row">
                     <div class="col-md-6 col-xs-6 img-responsive">
                             <p id="slide-text" class="animated fadeInLeft text-white text-center">UNLOCK THE SECRET</p>
-                            <p id="slide-text" class="animated lightSpeedIn text-white text-center">CREATE A WEB SOLUTION</p>
+                            <p id="slide-text" class="animated lightSpeedIn text-darker text-center">CREATE A WEB SOLUTION</p>
                             <p id="slide-text" class="animated slideInDown text-yellow text-center">THAT MOVES PEOPLE</p>
                             {{-- <img id="slide-fit" class="animated rollIn img-responsive" src="{{asset('imgs/slide-concept.png')}}" alt="portflio image" alt="Portfolio Image" /> --}}
         
@@ -30,34 +31,39 @@
                     </div>
                     <div class="col-sm-6 col-xs-6">
                             
-                        <img id="slide-fit" class="animated slideInRight img-responsive text-right" src="{{asset('imgs/desktop_0.png')}}" alt="portflio image" alt="Portfolio Image" />
                         {{-- </div> --}}
                         {{-- <div class="col-sm-6" id="slide-concept-1"> --}}
                         {{-- <img id="slide-concept-1" class="animated zoomInUp img-responsive text-right" src="{{ asset('imgs/slide-concept-2-5.png')}}" alt="portflio image"> --}}
-                            {{-- <img id="slide-concept-3" class="animated zoomInUp img-responsive text-right" src="{{ asset('imgs/web02_1.png')}}" alt="portflio image"> --}}
-                            {{-- <img id="slide-concept-2" class="animated zoomInUp img-responsive text-right" src="{{ asset('imgs/web01.png')}}" alt="portflio image"> --}}
+                        <img id="slide-concept-1" class="animated slideInDown img-responsive text-right" src="{{ asset('imgs/web01.png')}}" alt="portflio image">
+                        <img id="slide-concept-2" class="animated fadeInDownBig img-responsive text-right" src="{{ asset('imgs/web02_1.png')}}" alt="portflio image">
+                        <img id="slide-concept-3" class="animated slideInDown img-responsive text-right" src="{{ asset('imgs/web03_0.png')}}" alt="portflio image">
                             {{-- <img id="slide-concept-4" class="animated zoomInUp img-responsive text-right" src="{{ asset('imgs/web03_0.png')}}" alt="portflio image"> --}}
+                        <img id="comp-image" class="animated slideInRight img-responsive text-right" src="{{asset('imgs/desktop_0.png')}}" alt="portflio image" alt="desktop image" />
                             {{-- <img id="slide-concept-5" class="animated zoomInUp img-responsive text-right" src="{{ asset('imgs/web04.png')}}" alt="portflio image"> --}}
                             
                         </div>
                        
                 </div>
+            </div>
                 {{-- slide2 --}}
-                <div class="mySlides img-responsive">
+                <div class="mySlides fademe slideshow-2 img-responsive">
+                <div class="row">
                     <div class="col-md-6 col-xs-6 img-responsive">
-                            <p id="slide-text" class="animated lightSpeedIn text-white text-left">WE CREATE</p>
-                            <p id="slide-text" class="animated slideInDown text-yellow text-left">EXPERIENCES THAT DEFINES</p>
+                            <p id="slide-text" class="animated lightSpeedIn text-white text-center">WE CREATE</p>
+                            <p id="slide-text" class="animated slideInDown text-yellow text-center">EXPERIENCES THAT DEFINES</p>
                             {{-- <img id="slide-fit" class="animated rollIn img-responsive" src="{{asset('imgs/slide-concept.png')}}" alt="portflio image" alt="Portfolio Image" /> --}}
-                            <p id="slide-text" class="animated bounceInUp text-yellow text-left">YOUR BRAND</p>
+                            <p id="slide-text" class="animated slideInUp text-white text-center">YOUR BRAND</p>
                             {{-- <h3 class="animated swing text-yellow text-left">CREATE A WEB SOLUTION WITH US</h3>
                             <h3 class="animated tada text-yellow text-left">CREATE A WEB SOLUTION WITH US</h3>
                             <h3 class="animated jello text-yellow text-left">CREATE A WEB SOLUTION WITH US</h3> --}}
-                            <img id="some-f" class="animated rotateIn img-responsive text-center" src="{{asset('imgs/flower3.png')}}" alt="portflio image" alt="Portfolio Image" />
+                            <img id="some-f" class="animated rotateIn img-responsive text-right" src="{{asset('imgs/flower3.png')}}" alt="portflio image" alt="Portfolio Image" />
                         </div>
                         <div class="col-md-6 col-xm-6">
                             <img id="slide-fit" class="animated flipInY img-responsive text-right" src="{{asset('imgs/web04.png')}}" alt="portflio image" alt="Portfolio Image" />
+                            {{-- <img id="slide-fit" class="animated flipInY img-responsive text-left" src="{{asset('imgs/2_2.png')}}" alt="portflio image" alt="Portfolio Image" /> --}}
                             {{-- <img id="slide-fit" class="animated zoomInRight img-responsive text-right" src="{{ asset('imgs/slide-concept-2-5.png')}}" alt="portflio image"> --}}
                         </div>
+                    </div>
                 </div>
                 {{-- slide3 --}}
 {{--                 <div class="mySlides">
@@ -74,7 +80,7 @@
                 </div> --}}
 
                 {{-- slide4 --}}
-                <div class="mySlides">
+                <div class="mySlides fademe slideshow-3">
 {{--                         <div class="col-md-6 col-xs-6">
                             <p id="slide-text" class="animated slideInDown text-white text-left">TURNING YOUR WEBSITE</p>
                             <p id="slide-text" class="animated lightSpeedIn text-white text-left">FROM COST CENTER</p>
@@ -85,7 +91,11 @@
                             <img id="slide-fit" class="animated flipInY img-responsive text-right" src="{{asset('imgs/6_0.png')}}" alt="portflio image" alt="Portfolio Image" /> --}}
                             {{-- <img id="slide-fit" class="animated zoomInRight img-responsive text-right" src="{{ asset('imgs/slide-concept-2-5.png')}}" alt="portflio image"> --}}
                         {{-- </div> --}}
-                        <img id="slide-fit" class="animated tada img-responsive text-right" src="{{asset('imgs/diagram_1.png')}}" alt="portflio image" alt="Portfolio Image" />
+                        <div class="row">
+                            <div class="col-md-12 col-xs-12">
+                            <img id="slide-design" class="animated tada img-responsive text-right" src="{{asset('imgs/diagram_1.png')}}" alt="portflio image" alt="Portfolio Image" />
+                            </div>
+                        </div>
                 </div>
                 <br>
 
@@ -184,7 +194,7 @@
 @section('afterimg')
 
         <h1><strong> CAN WE HELP? </strong></h1>
-    <p>
+    <p class="container well well-1">
         Web design and development are our passion and we’re eager to prove it to you. 
         Team up with us for a detailed web maintenance, creative web design or a secure
         eCommerce, and we will take your website to a whole new level, where conversion 
@@ -247,7 +257,7 @@
     <div id="why" class="contatiner why">
     <div class="container text-center">
             <h1><strong>WHY ICARUS?</strong></h1>
-            <p class="text-center">
+            <p class=" container well text-center">
             You are looking at one of the best web design companies. Since 2007, we have created over 500 web designs for 
             companies of all sizes and industries worldwide. 
                          </p>

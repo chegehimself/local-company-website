@@ -1,5 +1,6 @@
 @extends('layouts.app')
-
+ 
+@section('customized')Web-Maintenance @endsection
 @section('content')
 <h1>Meet Our web maintenance!</h1>
 @endsection

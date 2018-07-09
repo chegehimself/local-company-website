@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('customized')
+    Join-us
+@endsection
+
 @section('content')
     
 @endsection

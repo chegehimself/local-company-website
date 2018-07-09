@@ -4,7 +4,7 @@
 @endsection
 
 @section('customized')
-    Web design
+    services
 @endsection
 {{-- image section --}}
 

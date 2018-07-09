@@ -97,6 +97,8 @@ else if(active == '/about'){
 }
 else if(active == '/blog'){
     $( "li.blog" ).toggleClass( "activeNow");
+}else if(active == '/products'){
+    $( "li.products" ).toggleClass( "activeNow");
 }
 else if(active == '/contact'){
     $( "li.contact" ).toggleClass( "activeNow");
@@ -149,9 +151,8 @@ function showSlides(n) {
 
 // automatic sliding
 
-
 var slideIndex = 0;
-slideShow();
+slideShow(); 
 
 function slideShow() {
     var i;
@@ -169,7 +170,7 @@ function slideShow() {
     } 
     slides[slideIndex-1].style.display = "block"; 
     dots[slideIndex-1].className += " active";
-    // setTimeout(slideShow, 39000000); // Change image every 3 seconds [3billion has some magic]
+    // setTimeout(slideShow, 39000000); // Change image every 3 seconds [change to 3 billion and see some magic]
     setTimeout(slideShow, 5000); // Change image every 3 seconds
 }
 

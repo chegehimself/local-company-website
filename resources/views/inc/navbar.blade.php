@@ -68,6 +68,9 @@
                         </li> --}}
                         </ul>
                         </li>
+                        <li class="products">
+                        <a href="/products">Products</a>
+                        </li>
                         <li class="portfolio">
                           <a href="/portfolio">Portfolio</a>
                         </li>
