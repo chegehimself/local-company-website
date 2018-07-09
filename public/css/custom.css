@@ -981,7 +981,10 @@ a:hover {
 
 /* mobile specifications */
 @media screen and (max-width: 720px) {
-
+ul#menu {
+    padding: 0px;
+    margin-left: -20px;
+}
 #slide-text {
   font-size: 13px !important;
 }
