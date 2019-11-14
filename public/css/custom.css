@@ -537,8 +537,8 @@ form {
 }
 
 #portfoo {
+  display: flex;
   padding: 35px;
-  margin-right: -50px;
 }
 
 /******
