@@ -29,9 +29,9 @@ Route::get('/real-estate-web-marketing-system', 'PagesController@realestate');
 
 Route::get('/partner', 'PagesController@partner');
 
-Route::get('/the-icarus-start-up-partnership-program', 'PagesController@icaruspartnership');
+Route::get('/the-Saints-start-up-partnership-program', 'PagesController@Saintspartnership');
 
-Route::get('/join-icarus', 'PagesController@joinicarus');
+Route::get('/join-Saints', 'PagesController@joinSaints');
 
 Route::get('/blog', 'PagesController@blog');
 

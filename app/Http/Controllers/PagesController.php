@@ -40,13 +40,13 @@ class PagesController extends Controller
         return view('pages.partner');
     }
 
-    public function icaruspartnership(){
-        return view('pages.the-icarus-start-up-partnership-program');
+    public function Saintspartnership(){
+        return view('pages.the-Saints-start-up-partnership-program');
     }
 
 
-    public function joinicarus(){
-        return view('pages.join-icarus-soft');
+    public function joinSaints(){
+        return view('pages.join-Saints-soft');
     }
 
 

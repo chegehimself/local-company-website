@@ -227,7 +227,7 @@
                     Have you heard about responsive web design?
                     Nowadays, mobile devices are used more for searching online than desktops. That’s why it’s 
                     a MUST to have a mobile responsive web design. You don’t want your visitors to come and leave 
-                    immediately just because your website is not user-friendly. In Icarus, we deliver 100% 
+                    immediately just because your website is not user-friendly. In Saints, we deliver 100%
                     responsive web design.
             </p>
             <a href="/web-design"><button id="read-more"  class="btn btn-primary btn-lg btn-design">READ MORE</button></a>
@@ -243,7 +243,7 @@
             <div id="ecomerce">
             <p>
                 Are you searching for the best eCommerce web design service?
-                Implement your e-commerce master plan with Icarus E-commerce solution and get your web-shop
+                Implement your e-commerce master plan with Saints E-commerce solution and get your web-shop
                 started! Don't waste your time struggling, we are here to help you.
             </p>
             </div>
@@ -256,7 +256,7 @@
 @section('why-orange')
     <div id="why" class="contatiner why">
     <div class="container text-center">
-            <h1><strong>WHY ICARUS?</strong></h1>
+            <h1><strong>WHY Saints?</strong></h1>
             <p class=" container well text-center">
             You are looking at one of the best web design companies. Since 2007, we have created over 500 web designs for 
             companies of all sizes and industries worldwide. 
@@ -274,7 +274,7 @@
                     <p><i class="fa fa-search"></i></p>
                     <h4> Powerful SEO </h4>
                 <p>
-                Icarus's skillful optimization will help your business rank higher than your competitors 
+                Saints's skillful optimization will help your business rank higher than your competitors
                 in search engines like Google.
                 </p>
             </div>
@@ -319,7 +319,7 @@
                     <h4> One Simple Solution for Everything </h4>
                 <p>
                 
-                With Icarus, you have control over everything with one simple centralized location. Saves you both 
+                With Saints, you have control over everything with one simple centralized location. Saves you both
                 time and money.
                 </p>
             </div>
