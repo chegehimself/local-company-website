@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('customized')
+    Join-us
+@endsection
+
 @section('content')
     
 @endsection
@@ -20,7 +24,7 @@
 @section('why-orange')
 
 <div class="text-center">
-    <h4><strong>As a fast-growing company, we are always looking for top talent to join our team.If you would like to work in a friendly, low-stress, yet stimulating environment, we invite you to consider join Icarus.</strong><h4/>
+    <h4><strong>As a fast-growing company, we are always looking for top talent to join our team.If you would like to work in a friendly, low-stress, yet stimulating environment, we invite you to consider join Icarus.</strong></h4>
 </div>
 <div class="row work-us text-white">
 <h2 class="text-center">Why should you join us?</h2>
@@ -45,7 +49,7 @@
 
 <div class="col-md-6 col-xs-6 container text-left">
 	<p>
-		Finally, here's the best part, imagine working with some of Malaysia's leading corporations, government agencies and SMEs. As a team member of Icarus, you'll finally get a chance to work with some of the most prestigious organisations in Malaysia.
+		Finally, here's the best part, imagine working with some of Kenyas's leading corporations, government agencies and SMEs. As a team member of Icarus, you'll finally get a chance to work with some of the most prestigious organisations in Kenya.
 	</p>
 	<p>
 		Our development office is located in College House, Nairobi, Kenya which is easily accessible.

@@ -22,7 +22,7 @@
 <div class="text-center">
     <p><h1><b><span class="text-orange"><span class="nums text-center"> 8 </span>REASONS</span></b></h1></p>
     <h3> To Use Icarus to Build your Website</h3>
-    <p>
+    <p class="container">
         Your website is your storefont. Don't risk damaging your business and your brand by leaving it in the hands of amatuers!
         Here's 8 Reasons why Icarus is the ultimate choice as your Website development partner.
     </p>
@@ -32,7 +32,7 @@
     <div id="design" class="push text-center col-md-7">
         <h2 class="container-fluid"><strong><span class="nums1 text-left"> 1 </span> <span class="brag">We've been around for a LONG time!</span></strong></h2>
         <p class="paragraph-design text-left">    
-        Our team has been serving Malaysian 
+        Our team has been serving Kenyan 
             businesses since 2007. We are here to stay.
             To be more specific, we have created over 
             500 websites and counting. Make no mistake 
@@ -41,14 +41,14 @@
             and evolves over the long term.
             
             And remember, with our long track record of 
-            satisfied clients which include some of Malaysia's top 
+            satisfied clients which include some of kenya's top 
             corporations, you no longer have to be concerned about 
             your web development partner closing shop and 
             leaving you in a difficult position.
         </p>
     </div>
     <div class="col-md-5">
-        <img class="img-responsive" src="{{asset('imgs/webdesign01-new.gif')}}" alt="image for malysia">
+        <img class="img-responsive" src="{{asset('imgs/webdesign01-new.gif')}}" alt="image for design">
     </div>
 </div>
 

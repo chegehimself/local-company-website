@@ -70,5 +70,10 @@ class PagesController extends Controller
         return view('pages.services');
     }
 
+    // products
+    public function products(){
+        return view('pages.products');
+    }
+
 
 }

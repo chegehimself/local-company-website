@@ -57,7 +57,7 @@
                         <li>
                           <a href="/web-maintenance">Web Maintenance</a>
                         </li>
-                         <li class="contact">
+                         <li>
                         <a href="/services">More Services</a>
                         </li>
                        {{--  <li>
@@ -67,6 +67,9 @@
                           <a href="/real-estate-web-marketing-system">Real Estate Web Marketing System</a>
                         </li> --}}
                         </ul>
+                        </li>
+                        <li class="products">
+                        <a href="/products">Products</a>
                         </li>
                         <li class="portfolio">
                           <a href="/portfolio">Portfolio</a>

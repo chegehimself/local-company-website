@@ -17,7 +17,7 @@
     </div>    
 </div>
 <div class="text-center">
-    <h1><strong>WHO WE ARE</strong><h1/>
+    <h1><strong>WHO WE ARE</strong></h1>
 </div>
 @endsection
 
@@ -37,17 +37,20 @@ That's why you need a professional partner for your website, someone with a prov
     <div class="col-md-6 container text-center">
            <h4 class="make-me-bold"> <strong> One of the best Web Design companies worldwide </strong> </h4>
            <img class="aboutus-image" src="{{asset('imgs/aboutus01.png')}}" alt="about image">
-           <p>
+            <p>
                 Icarus has helped over 500 companies, government agencies and SMEs worldwide in the past 10 years. We have an excellent reputation as one of Kenyas's leading Web design companies.
-
+            </p>
+            <p>
                 The fact is, we possess a strong track record of delivering on-time and to the expectations of our clients.
-                
+            </p>
+            <p> 
                 Whether you want a fancy website with amazing functionalities, or just a simple website for branding purposes...Icarus has a solution for you.
-                
+            </p>
+            <p>
                 Solutions that help you stand above and beyond your competition.
-                
-                Imagine having a large group of award-winning Web designers and programmers working for you. You can rest assured that you will get the best website; 
-                one that fits your business vision. Not just a fancy-looking one.
+            </p>
+            <p>  
+                Imagine having a large group of award-winning Web designers and programmers working for you. You can rest assured that you will get the best website; one that fits your business vision. Not just a fancy-looking one.
            </p>
     </div>
     <div class="col-md-6 container text-center">
@@ -76,7 +79,7 @@ That's why you need a professional partner for your website, someone with a prov
 
                     It means your Website can grow with your organisation, without the need to rebuild it each time your organisation grows and evolves.
 
-                    To put it simply, Orangesoft is staffed with an elite group of experts and specialists equipped to do medium and big projects, that's why we are your best choice to fulfill both your present and future business needs.
+                    To put it simply, Icarus is staffed with an elite group of experts and specialists equipped to do medium and big projects, that's why we are your best choice to fulfill both your present and future business needs.
                </p>
         </div>
         <div class="col-md-6 container text-center">
@@ -89,7 +92,7 @@ That's why you need a professional partner for your website, someone with a prov
                         E-catalog
                         E-commerce
                         Web marketing (Search engine optimization, search engine marketing, social media marketing, etc.)
-                        Orangesoft simply transforms your Website from a cost centre into a profit centre. A profit centre that supports the pursuit of your business's objectives.
+                        Icarus simply transforms your Website from a cost centre into a profit centre. A profit centre that supports the pursuit of your business's objectives.
 
                         You can start profiting from your website and make it pay for itself, or you can waste time, money and get frustrated.
 

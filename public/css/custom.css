@@ -4,7 +4,7 @@
 
 /* icons */
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
-
+ 
 /* ionicons */
 @import url(https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css);
 
@@ -20,18 +20,17 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 html {
-  font-family: Raleway, sans-serif;
+  font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   background: #FFFFFF !important;
   font-weight: 400;
   font-size: 16px;
-  color: #666666;
+  /*color: #666666;*/
 }
 html, body {
   font-weight: 400;
-  /*font-size: 16px;*/
-  color: #666666;
+  /*color: #666666;*/
   font-size:20px;
   /*min-width: 320px;*/
   max-width: 100%;
@@ -88,6 +87,11 @@ push {
 .sec-nav .navbar-nav > li > a:hover{
   color:#FFFFFF !important;
   background:#FDB915 !important;
+}
+
+.sec-nav {
+    padding-left: 90px !important;
+    margin-right: 0px;
 }
 
 clients {
@@ -203,11 +207,32 @@ form {
 ************************/
 /* hide images for index */
 
-#slideshow {
-  background: url(imgs/bgBanner.jpg);
+/*#slideshow {
+  background: url(../imgs/banner-bg_1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+}*/
+.slideshow-1 {
+  background: url(../imgs/banner-bg_1.jpg) !important;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  transition: background 4s ease;
+  /*margin-bottom: -180px;*/
 } 
+.slideshow-2 {
+  background: url(../imgs/bgBanner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background 4s ease;
+  /*margin-bottom: -180px;*/
+} 
+.slideshow-3 {
+  background: url(../imgs/banner2_1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background 4s ease;
+  /*margin-bottom: -180px;*/
+}  
 
 .mySlides {
   display: none;
@@ -215,6 +240,12 @@ form {
 
 #comp-image {
   height: 440px;
+  right: 0;
+  /*width: 87%;*/
+}
+
+#slide-design {
+  height: 418px;
 }
 
 /* Next & previous buttons */
@@ -272,9 +303,9 @@ form {
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 3s;
+  -webkit-animation-duration: 5s;
   animation-name: fade;
-  animation-duration: 3s;
+  animation-duration: 5s;
 }
 
 @-webkit-keyframes fade {
@@ -521,7 +552,7 @@ form {
 .portfolio-image11:hover,.portfolio-image12:hover,.portfolio-image13:hover,.portfolio-image14:hover,.portfolio-image15:hover,
 .portfolio-image16:hover{
 	background-position: bottom center!important;
-	transition: background-position 5s linear 0s;
+	transition: background-position 3s linear 0s;
 }
 
 .space-x{
@@ -763,7 +794,7 @@ a:hover {
 }
 
 .deesign {
-  margin-top: -20px !important;
+  /*margin-top: -20px !important;*/
 }
 
 .fa-cog, .fa-desktop, .fa-cart-arrow-down {
@@ -823,6 +854,9 @@ a:hover {
 #why {
   padding-top: 100px !important;
   background: #F5F7F7;
+}
+.add-margin {
+    margin: 0px 80px 0px 80px;
 }
 
 .col-md-3, #why-main {
@@ -929,8 +963,9 @@ a:hover {
   margin-left: 260px;
 }
 #some-f {
-  height: 500px;
+  height: 354px;
   margin-top: -100px;
+  margin-left: 230px;
 }
 
 
@@ -946,12 +981,20 @@ a:hover {
 
 /* mobile specifications */
 @media screen and (max-width: 720px) {
+ul#menu {
+    padding: 0px;
+    margin-left: -20px;
+}
 #slide-text {
   font-size: 13px !important;
+}
+#slide-design {
+  height: 150px;
 }
 #some-f {
     height: 200px;
     margin-top: -70px;
+    margin-left: 38px !important; 
 }
 #some-flower {
   margin-left: 30px;
@@ -964,13 +1007,33 @@ a:hover {
   height:150px;
 }
 #slide-concept-1 {
-  right: 0px !important;
-  top: 50px;
-  z-index: 1;
-  height: 60px;
+    position: absolute !important;
+    left: 0;
+    /* height: 100px; */
+    top: 5px;
+    margin-left: 2px !important;
+    z-index: 1;
+    height: 160px !important;
 }
+#slide-concept-2 {
+    position: absolute !important;
+    z-index: 1;
+    left: 0;
+    margin-left: -30px !important;
+    top: 4px;
+    height: 140px !important;
+}
+#slide-concept-3 {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    margin-left: -35px !important;
+    top: 40px;
+    height: 80px !important;
+}
+
   #comp-image {
-    height: 300px;
+    height:200px !important; 
 }
   #navigation-main {
     margin-top: -60px;
@@ -981,11 +1044,11 @@ a:hover {
   .thumbnail{
     line-height: 1 !important;
   }
-  .mySlides{
+  /*.mySlides{
     height:auto;
     background: url(imgs/inner-banner-webdesign.jpg)
     
-  }
+  }*/
   .slide-img{
     height: 200px !important;
   }
@@ -1121,21 +1184,28 @@ h1 {
 
 #slide-concept-1 {
   position: absolute;
-  right: 50px;
-  top: 50px;
+  left:0;
+  /*height: 100px;*/
+  top: 5px;
+  margin-left: -20px;
   z-index: 1;
+  height: 340px;
 }
 #slide-concept-2 {
   position: absolute;
-  right: 200px;
-  top: 50px;
   z-index: 1;
+  left: 0;
+  margin-left: -90px;
+  top: 4px;
+  height: 280px;
 }
 #slide-concept-3 {
   position: absolute;
-  right: 360px;
-  top: 100px;
   z-index: 1;
+  left:0;
+  margin-left: -110px;
+  top: 10px;
+  height: 180px;
 }
 #slide-concept-4 {
   position: absolute;
@@ -1154,11 +1224,23 @@ h1 {
   border-right: thick solid #FDB915 !important;
 }
 
+.girl {
+    margin-top: -400px;
+}
 /*slide text*/
 #slide-text {
-  color: #fdb915  !important;
   font-size: 2.3em;
   font-family: 'Coda Caption', sans-serif;
+}
+
+.text-darker {
+   color: #959596  !important;
+}
+.text-more {
+  color: #7b7b7f;
+}
+.text-black {
+  color: #000;
 }
 
 #contact {
@@ -1167,5 +1249,14 @@ h1 {
 
 form {
   padding-top: 40px;
+}
+
+.well {
+  border: 0px !important;
+}
+
+.well-1 {
+  border: 0px !important;
+  background-color: #ffffff !important;
 }
 /*End Of custom css*/
