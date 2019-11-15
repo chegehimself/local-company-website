@@ -23,7 +23,7 @@
 
 @section('clients')
 <div class="container">
-<h2>Saints:</h2>
+<h2>Icarus:</h2>
 <h2>Helping your company grow into the Digital Age</h2>
 <h5><b>Did you know, your website is the new store front for your business in the Digital Age?</b></h5>
 
@@ -38,13 +38,13 @@ That's why you need a professional partner for your website, someone with a prov
            <h4 class="make-me-bold"> <strong> One of the best Web Design companies worldwide </strong> </h4>
            <img class="aboutus-image" src="{{asset('imgs/aboutus01.png')}}" alt="about image">
             <p>
-                Saints has helped over 500 companies, government agencies and SMEs worldwide in the past 10 years. We have an excellent reputation as one of Kenyas's leading Web design companies.
+                Icarus has helped over 500 companies, government agencies and SMEs worldwide in the past 10 years. We have an excellent reputation as one of Kenyas's leading Web design companies.
             </p>
             <p>
                 The fact is, we possess a strong track record of delivering on-time and to the expectations of our clients.
             </p>
             <p> 
-                Whether you want a fancy website with amazing functionalities, or just a simple website for branding purposes...Saints has a solution for you.
+                Whether you want a fancy website with amazing functionalities, or just a simple website for branding purposes...Icarus has a solution for you.
             </p>
             <p>
                 Solutions that help you stand above and beyond your competition.
@@ -61,7 +61,7 @@ That's why you need a professional partner for your website, someone with a prov
 
                     Our philosophy is simple, your website should be a vehicle that accelerates the achievement of your business goals. Unlike others, we are not interested to sell standard packages that limit your potential.
                     
-                    And best of all, with Saints, your only limitation is your imagination.
+                    And best of all, with Icarus, your only limitation is your imagination.
             </p>
     </div>
 </div>
@@ -79,7 +79,7 @@ That's why you need a professional partner for your website, someone with a prov
 
                     It means your Website can grow with your organisation, without the need to rebuild it each time your organisation grows and evolves.
 
-                    To put it simply, Saints is staffed with an elite group of experts and specialists equipped to do medium and big projects, that's why we are your best choice to fulfill both your present and future business needs.
+                    To put it simply, Icarus is staffed with an elite group of experts and specialists equipped to do medium and big projects, that's why we are your best choice to fulfill both your present and future business needs.
                </p>
         </div>
         <div class="col-md-6 container text-center">
@@ -92,7 +92,7 @@ That's why you need a professional partner for your website, someone with a prov
                         E-catalog
                         E-commerce
                         Web marketing (Search engine optimization, search engine marketing, social media marketing, etc.)
-                        Saints simply transforms your Website from a cost centre into a profit centre. A profit centre that supports the pursuit of your business's objectives.
+                        Icarus simply transforms your Website from a cost centre into a profit centre. A profit centre that supports the pursuit of your business's objectives.
 
                         You can start profiting from your website and make it pay for itself, or you can waste time, money and get frustrated.
 

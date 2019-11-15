@@ -21,7 +21,7 @@
 </div>
 <div class="text-center container-fluid">
     <p>
-        Saints Technologies is an Information Technology company (IT) in Kenya that consults & offers various services and technology solutions. We deliver value through our integrated solutions & services to SME'S, Banking and Finance institutions, Insurance Companies, various Education Sector players, Health Care Entities & Travel Companies. we research , conceptualize, create, DEConstruct & reverse
+        Icarus Technologies is an Information Technology company (IT) in Kenya that consults & offers various services and technology solutions. We deliver value through our integrated solutions & services to SME'S, Banking and Finance institutions, Insurance Companies, various Education Sector players, Health Care Entities & Travel Companies. we research , conceptualize, create, DEConstruct & reverse
 
 
     </p>
@@ -85,7 +85,7 @@
     <div id="design" class="push text-center col-md-7">
         <h4><strong><span class="nums1 text-center"> 5 </span> MOBILE APPLICATIONS</strong></h4>
            <p class="paragraph-design text-center"> 
-            Intuitive designs combined with compelling user experience are what makes our apps stand ahead in the digital age. Seamless experience driven by international standards in collaboration with out-of-the-box ideas is the specialty of Saints apps helping your business accomplish its goals.
+            Intuitive designs combined with compelling user experience are what makes our apps stand ahead in the digital age. Seamless experience driven by international standards in collaboration with out-of-the-box ideas is the specialty of Icarus apps helping your business accomplish its goals.
         </p>
     </div>
     <div class="col-md-5">
@@ -99,7 +99,7 @@
     <div id="design" class="push text-center col-md-7">
         <h4><strong><span class="nums1 text-center"> 6 </span> IT CONSULTING</strong></h4>
            <p class="paragraph-design text-center"> 
-            Hiring IT employees at times may be costlly to a business. That is why most companies prefer outsourcing their services. At Saints, we offer affordable IT consulting services on networking, IT office support & troubleshooting, Information security & IT asset management
+            Hiring IT employees at times may be costlly to a business. That is why most companies prefer outsourcing their services. At Icarus, we offer affordable IT consulting services on networking, IT office support & troubleshooting, Information security & IT asset management
         </p>
     </div>
     <div class="col-md-5">
@@ -127,7 +127,7 @@
     <div id="design" class="push text-center col-md-7">
         <h4><strong><span class="nums1 text-center"> 8 </span> BULK SMS</strong></h4>
            <p class="paragraph-design text-center"> 
-            Sending out message campaigns requires having a fast SMs gateway and API that sends out the messages in bulk instantly. At Saints, we offer SMS API and bulk SMS at a competitive price that makes us unique. With our API, you can send upto 10,000 SMS with a single click
+            Sending out message campaigns requires having a fast SMs gateway and API that sends out the messages in bulk instantly. At Icarus, we offer SMS API and bulk SMS at a competitive price that makes us unique. With our API, you can send upto 10,000 SMS with a single click
         </p>
     </div>
     <div class="col-md-5">

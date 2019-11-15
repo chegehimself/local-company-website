@@ -13,14 +13,14 @@
     </div>    
 </div>
 <div class="text-center">
-	<h2>Saints PRODUCTS</h2>
+	<h2>Icarus PRODUCTS</h2>
 </div>
 @endsection
 
 @section('why-orange')
 
 <div class="text-center">
-    <h4><strong>Saints.</strong></h4>
+    <h4><strong>Icarus.</strong></h4>
 </div>
 
 @endsection

@@ -21,10 +21,10 @@
 </div>
 <div class="text-center">
     <p><h1><b><span class="text-orange"><span class="nums text-center"> 8 </span>REASONS</span></b></h1></p>
-    <h3> To Use Saints to Build your Website</h3>
+    <h3> To Use Icarus to Build your Website</h3>
     <p class="container">
         Your website is your storefont. Don't risk damaging your business and your brand by leaving it in the hands of amatuers!
-        Here's 8 Reasons why Saints is the ultimate choice as your Website development partner.
+        Here's 8 Reasons why Icarus is the ultimate choice as your Website development partner.
     </p>
 </div>
 <div class="container text-center"> 
@@ -60,7 +60,7 @@
         Many business treat their website as an expense. Truth be told, with most web design companies that would be the case because they DO NOT possess the
         expertise to create a website that saves you money and grows your business.
 
-        With Saints, we will leverage your website to save you money and grow your business in areas that you never thought of before! That is the power of working with a company that has experience and expertise.
+        With Icarus, we will leverage your website to save you money and grow your business in areas that you never thought of before! That is the power of working with a company that has experience and expertise.
     </p>
     </div>
     <div class="col-md-5">
@@ -74,7 +74,7 @@
     <div id="design" class="push text-center col-md-7">
         <h2><strong><span class="nums1"> 3 </span> We have a large team of designers and programmers!</strong></h2>
            <p class="paragraph-design text-left"> 
-            Whether you want a simple website or a complex one that can perform amazing functions, Saints has the solution for you. I can't stress this enough: our team of designers and programmers have been doing it for years for some of Malaysia's largest corporations and government agencies. Be assured that you are in the hands of the best professionals in Web development and design in the marketplace!
+            Whether you want a simple website or a complex one that can perform amazing functions, Icarus has the solution for you. I can't stress this enough: our team of designers and programmers have been doing it for years for some of Malaysia's largest corporations and government agencies. Be assured that you are in the hands of the best professionals in Web development and design in the marketplace!
         </p>
     </div>
     <div class="col-md-5">
@@ -120,7 +120,7 @@
            <p class="paragraph-design text-left"> 
             One thing is for sure: your business and vision is unique and powerful - you should not settle for a one-size fits all package that can't accomodate your vision and business growth.
 
-            At Saints, we work with you to create customised solutions based on your unique business requirements. Nothing is impossible for us! What's more, we deliver only a responsible web design.
+            At Icarus, we work with you to create customised solutions based on your unique business requirements. Nothing is impossible for us! What's more, we deliver only a responsible web design.
         </p>
     </div>
     <div class="col-md-5">
@@ -150,7 +150,7 @@
     <div id="design" class="push text-center col-md-7">
         <h2><strong><span class="nums1 text-center"> 8 </span> Our Track Record Speaks for Itself</strong></h2>
            <p class="paragraph-design text-left"> 
-            It's no accident hundreds of the largest companies and organisations in Malaysia see Saints as their preferred web design partner. Don't take our word for it...check out our impressive portfolio which boasts some of the region's top businesses, government agencies and NGOs here today.
+            It's no accident hundreds of the largest companies and organisations in Malaysia see Icarus as their preferred web design partner. Don't take our word for it...check out our impressive portfolio which boasts some of the region's top businesses, government agencies and NGOs here today.
         </p>
     </div>
     <div class="col-md-5">

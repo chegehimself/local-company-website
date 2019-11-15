@@ -10,7 +10,7 @@
         {{-- bootstrap boilaplate --}}
         <link rel="stylesheet" href="{{asset('css/app.css')}}" >
         <link rel="stylesheet" href="{{asset('css/normalize.css')}}" >
-        <link rel="shortcut icon" href="{{{ asset('imgs/Saints.ico') }}}">
+        <link rel="shortcut icon" href="{{{ asset('imgs/Icarus.ico') }}}">
         <link rel="stylesheet" href="{{{ asset('css/animate.min.css') }}}">
         <title>{{config('app.name', 'Nice')}}: @yield('customized')</title>
         {{-- <link rel="stylesheet" href="{{asset('css/semantic.min.css')}}" > --}}

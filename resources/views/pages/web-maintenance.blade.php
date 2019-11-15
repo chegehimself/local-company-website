@@ -32,7 +32,7 @@
 <div class="row container push text-left">
 	<div class="col-md-6 put-border">
 		<p>
-		That's the reason Saints has created an ongoing <b>VIP Web maintenance</b>
+		That's the reason Icarus has created an ongoing <b>VIP Web maintenance</b>
 		program for our clients - to help them leverage their website for success.
 
 		The good news is, as a client, you can get access to the latest technologies and
@@ -45,7 +45,7 @@
 		<p>
 			However, adding fresh content to your website in a regular basis can cost you precious resources, i.e. time and money. You may even have to hire a full-time member of staff to do it.
 			<br>
-            Thankfully, with Saints, all this can be done with our VIP Web maintenance program. What this means is you can focus on your business and make more money. Let us update and upkeep your website with the latest technologies that help you improve customer engagement.
+            Thankfully, with Icarus, all this can be done with our VIP Web maintenance program. What this means is you can focus on your business and make more money. Let us update and upkeep your website with the latest technologies that help you improve customer engagement.
 		</p>
 	</div>
 </div>
