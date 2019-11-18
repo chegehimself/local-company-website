@@ -29,7 +29,7 @@
         </div>
         <div class="text-center scrolling-wrapper">
             @yield('clients')
-        </div>c
+        </div>
         <br>
         {{-- <hr> --}}
         <div id="afterimg" class="text-center afterimg container">
@@ -38,7 +38,7 @@
         <div id="why-main">
             @yield('why-orange')
         </div>
-        <div id="portfoo" class="text-right">
+        <div id="portfoo" class="text-center">
             @yield('portfoo')
         </div>
         <div class="container text-left">
