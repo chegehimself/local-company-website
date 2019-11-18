@@ -569,7 +569,9 @@ form {
 
 #portfoo {
   display: flex;
+  justify-content: center;
   padding: 35px;
+  flex-wrap: wrap;
 }
 
 /******

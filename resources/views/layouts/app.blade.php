@@ -38,7 +38,7 @@
         <div id="why-main">
             @yield('why-orange')
         </div>
-        <div id="portfoo" class="text-center">
+        <div id="portfoo" class="text-right">
             @yield('portfoo')
         </div>
         <div class="container text-left">
