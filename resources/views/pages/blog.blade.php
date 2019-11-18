@@ -15,7 +15,7 @@
     </div>    
 </div>
 <div class="text-center">
-    <h1>BLOG<h1/>
+    <h1>BLOG</h1>
 </div>
 @endsection
 

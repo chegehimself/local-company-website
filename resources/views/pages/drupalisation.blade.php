@@ -15,7 +15,7 @@
     </div>    
 </div>
 <div class="text-center">
-    <h1>PSD / HTML TO DRUPAL<h1/>
+    <h1>PSD / HTML TO DRUPAL</h1>
 </div>
 @endsection
 

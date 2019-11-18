@@ -15,7 +15,7 @@
     </div>    
 </div>
 <div class="container text-center">
-    <h1><strong>ORANGESOFT’S PARTNER PROGRAMME</strong><h1/>
+    <h1><strong>ORANGESOFT’S PARTNER PROGRAMME</strong></h1>
 </div>
 @endsection
 

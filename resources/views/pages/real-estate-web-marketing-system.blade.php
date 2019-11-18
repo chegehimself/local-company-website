@@ -14,6 +14,6 @@
     </div>    
 </div>
 <div class="text-center">
-    <h1>REAL ESTATE WEB MARKETING SYSTEM<h1/>
+    <h1>REAL ESTATE WEB MARKETING SYSTEM</h1>
 </div>
 @endsection
