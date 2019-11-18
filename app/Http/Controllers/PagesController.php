@@ -46,7 +46,7 @@ class PagesController extends Controller
 
 
     public function joinIcarus(){
-        return view('pages.join-Icarus-soft');
+        return view('pages.join-icarus-soft');
     }
 
 
